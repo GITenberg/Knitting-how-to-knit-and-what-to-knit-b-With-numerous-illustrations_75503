@@ -1,0 +1,4563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      Knitting: How to Knit and What to Knit | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3{
+    text-align: center; /* all headings centered */
+    clear: both;
+    font-weight: normal;
+}
+
+  h1 {
+    letter-spacing: 0.1em;}
+
+   h2 {
+    word-spacing: 0.1em;
+    letter-spacing: 0.1em;}
+
+  h3 {
+    word-spacing: 0.3em;
+    letter-spacing: 0.03em;
+    page-break-after: avoid;}
+  p {
+      margin-top: .51em;
+      text-align: justify;
+      margin-bottom: .49em;
+  }
+
+  .p2       {margin-top: 2em;}
+  .p4       {margin-top: 4em;}
+  .p6       {margin-top: 6em;}
+
+  .padr7     {padding-right: 7em;}
+  .pad7     {padding-left: 7em;}
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r15  {width: 15%;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left: 42.5%;
+ margin-right: 42.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td { padding: 0.25em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.blockquot {
+    margin-left: 25%;
+    font-size:80%;
+}
+
+
+.center   {text-align: center;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; 
+           text-transform: lowercase;
+           word-spacing: 0.1em;}
+
+.u        {text-decoration: underline;}
+
+.caption {font-size: 80%;
+          word-spacing: .1em;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+      p {
+          margin-top: .51em;
+          text-align: justify;
+          margin-bottom: .49em;
+          text-indent: 1em;
+      }
+
+      /* to undo start of para indent */
+      .noindent {text-indent: 0;}
+
+      /* below for stuff that needs to right align with something else on the left */
+
+      .p2       {margin-top: 2em;}
+      .pb2       {margin-bottom: 2em;}
+      .p6       {margin-top: 6em;}
+      .pb6       {margin-bottom: 6em;}
+
+      .fs40    {font-size: 40%;} 
+      .fs55    {font-size: 55%;} 
+      .fs60    {font-size: 60%;} 
+      .fs70    {font-size: 70%;}
+      .fs75    {font-size: 75%;}
+      .fs80    {font-size: 80%;} 
+      .fs90    {font-size: 90%;}
+      .fs110   {font-size: 110%;}
+      .fs120   {font-size: 120%;}
+      .fs150   {font-size: 150%;}
+      .fs175   {font-size: 175%;}
+      .fs200   {font-size: 200%;}
+
+      .sans-serif {font-family: sans-serif;} 
+
+      .wsp {word-spacing: 0.3em;}
+      .lspp5 {letter-spacing: 0.05em;}
+      .lsp1 {letter-spacing: 0.1em;}
+      .lsp2 {letter-spacing: 0.25em;}
+
+
+      .tdrt     {text-align: right;
+                 vertical-align: top;
+                 padding-right: 1em;}
+      .wd15     {width: 15%;}
+
+      .wd40     {width: 40%;}
+      .wd50     {width: 50%;}
+      .wd80     {width: 80%;}
+      .wd90     {width: 90%;}
+      .wd100    {width: 100%;}
+
+      .pagenum { 
+	  position: absolute;
+	  left: 92%;
+	  font-size: small;
+	  text-align: right;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-indent: 0;
+	  color: #A9A9A9
+      } /* page numbers */
+
+      /* Transcriber's notes */
+     .transnote {border: 1px solid;
+             color: black;
+             font-size:small;
+             padding:0.5em;
+             margin-bottom:5em;
+             font-family:sans-serif, serif;
+      }
+
+      .corr {
+	  text-decoration: none;
+	  border-bottom: thin dashed blue;}
+
+      .x-ebookmaker .corr {
+	  text-decoration: none;
+	  border-bottom: none;}
+
+
+      /* Illustration classes */
+
+      .illowp20 {width: 20%; max-width:12em;}
+      .illowp30 {width: 30%; max-width:18em;}
+      .illowp40 {width: 40%; max-width:20em;}
+      .illowp45 {width: 45%; max-width:22em;}
+      .illowp50 {width: 50%; max-width:24em;}
+      .illowp55 {width: 55%; max-width:26em;}
+      .illowp60 {width: 60%; max-width:28em;}
+      .illowp65 {width: 65%; max-width:30em;}
+      .illowp70 {width: 70%; max-width:32em;}
+      .illowp75 {width: 75%; max-width:33.5em;}
+      .illowp80 {width: 80%; max-width:35em;}
+      .illowp90 {width: 90%; max-width:38em;}
+      .illowp100 {width: 80%; max-width:40em;}
+
+
+      .bold     {font-weight: bold;}
+
+</style>
+</head>
+<body>
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75503 ***</div>
+<div class="transnote">
+<strong>TRANSCRIBER’S NOTE</strong>
+
+<p class="noindent">Some minor changes to the text are noted at the <a href="#ENDNOTE">end of the book</a>.
+</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+    <div class="chapter">
+    </div>
+
+    <figure class="figcenter illowp60" id="cover">
+      <img class="w100" src="images/cover.jpg" alt="(Cover)">
+    </figure>
+
+
+<hr class="chap x-ebookmaker-drop">
+    <div class="chapter">
+    </div>
+
+    <figure class="figcenter illowp60" id="title">
+      <img class="w100" src="images/title.jpg" alt="(Title Page)">
+    </figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+
+<div class="chapter">
+
+<h1 class="wsp lspp5 p2">
+KNITTING:<br><br>
+<span class="fs55 padr7">HOW TO KNIT</span>
+<br>
+<span class="fs40">AND</span>
+<br>
+<span class="fs55 pad7">WHAT TO KNIT.</span></h1>
+<br>
+<p class="center p2 pb2 fs80 noindent"><i>WITH NUMEROUS ILLUSTRATIONS.</i></p>
+<br>
+<hr class="r5">
+<p class="center fs80 wsp noindent"><span class="fs55 lspp5">COMPILED AND EDITED<br>
+BY</span><br>
+<span class="lsp1 fs110">MARIE LOUISE KERZMAN</span>.</p>
+<hr class="r5"> 
+
+<p class="center wsp p4 noindent"><span class="fs55">PUBLISHED BY</span><br>
+<span class="lsp2">HENRY BRISTOW,</span><br>
+<span class="fs55">BROOKLYN, N. Y.</span><br>
+</p>
+</div>
+<hr class="chap x-ebookmaker-drop">
+
+
+<div class="chapter">
+<p class="center noindent p6 pb6 fs90">
+<span class="fs90">Entered according to Act of Congress, in the year 1884,</span><br>
+<span class="wsp lspp5"><span class="smcap">By</span> HENRY BRISTOW,</span><br>
+<span class="fs90">in the Office of the Librarian of Congress, Washington, D. C.</span><br>
+</p>
+</div>
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+
+<h2 class="nobreak" id="HOW_TO_KNIT">
+  <img style="max-height: 1em; display: inline-block;margin-bottom: -.15em "
+src="images/i_006b2.jpg" alt=""> HOW TO KNIT. 
+  <img style="max-height: 1em; display: inline-block; margin-bottom: -.15em"
+ src="images/i_006b.jpg" alt="">
+</h2>
+</div>
+
+<figure class="figcenter illowp30" id="hr1" >
+  <img class="w100" src="images/hr.jpg" alt="">
+  </figure>
+
+<p>The necessary materials for knitting are either cotton,
+worsted, silk or thread, and knitting needles.</p>
+
+<p>Stockings and all knitting worked in rounds require four
+knitting needles, three of which are used for holding the
+stitches of the work, and the fourth to knit with.</p>
+
+<p>The casting on of stitches forms the beginning of knitting.
+It consists of loops formed around a knitting needle. Every
+loop will form a stitch. The number of stitches will determine
+the width of the object which is to be knitted.</p>
+
+<p>There are five different ways of casting on stitches. For
+the casting on of stitches always unroll an end of the cotton
+long enough to work the stitches required, as this end is used
+in the formation of those stitches.</p>
+
+<figure class="figright illowp40" id="i_003_2" >
+  <img class="w100" src="images/i_003.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 1. Position to form the
+first Cast on Stitch.</span></figcaption>
+</figure>
+
+<p>No. 1.—Illustration No. 1 shows the position of the cotton,
+ready to cast on the first stitch. Place the cotton over the thumb
+and first finger of the left hand, in such a way as to have the
+end of cotton, which must be sufficiently long for the required
+number of stitches, fall from the thumb toward the palm of the hand.
+Hold this end and the other part of the cotton with the remaining
+fingers of the left hand. This same position of the cotton is used
+in illustrations 2 and 3. Take the needle with the right hand, place
+it over the cotton, between the thumb and the first finger, pass it
+under the cotton resting around the thumb, bring it upward; then pass
+the needle downward, under the cotton resting on the first finger;
+pass this loop through the loop around the thumb, withdraw the thumb
+from the loop; pass the thumb under the end of the cotton, toward the
+palm of the hand; draw this end in order to close the stitch just
+formed.</p>
+
+<p><span class="pagenum" id="Page_4">[4]</span></p>
+
+<figure class="figcenter illowp100" id="i_004" >
+  <img class="w100" src="images/i_004.jpg" alt="">
+  <figcaption class="caption">
+<table class="autotable wd100">
+<tr><td class="tdc wd40"><span class="smcap">No. 2. Casting on of Single Stitches.</span>
+</td><td class="tdc"><span class="smcap">No. 3. Casting on by Knitting.</span>
+</td></tr></table></figcaption>
+</figure>
+
+<p>No. 2—<i>Casting on of Single Stitches.</i>—Begin in the same
+manner as described in No. 1, and make 2 stitches. Then take
+up on the needle the loop which is around the thumb (see
+illustration 2), without withdrawing the thumb, insert the
+needle around the cotton marked <i>b</i> in illustration No. 2, from
+right to left, and draw it through loop <i>a</i>; close this stitch as
+already directed in No. 1, by withdrawing the thumb from
+loop <i>a</i> and drawing the end of cotton.</p>
+
+<p>No. 3.—This casting on of stitches requires two needles.
+Form the first stitch in same manner as described in No. 1.
+Then, with the left hand, hold the needle on which this first
+stitch is formed, pass the cotton over the first finger of the left
+hand, take a needle with the right hand, and insert the point
+into the loop on the left needle, wind the cotton around the
+point of the right needle, draw it through the loop, *insert the
+point of the left needle into the loop just formed on the right
+needle, wind the cotton around the point of the right needle,
+draw it through the loop. Repeat from *. See illustration 3.</p>
+
+<figure class="figcenter illowp100" id="i_005_2" >
+  <img class="w100" src="images/i_005.jpg" alt="">
+  <figcaption class="caption">
+<table class="autotable wd100">
+<tr><td class="tdc wd50"><span class="smcap">No. 4. New Casting on of Stitches.</span>
+</td><td class="tdc"><span class="smcap">No. 5. Casting on of Stitches
+leaving an Edge.</span>
+</td></tr></table>
+</figcaption>
+</figure>
+
+<p>No. 4—<i>The Casting on of a New Row of Stitches.</i>—This
+casting on of stitches is generally employed in knitting with
+worsted, which requires a new casting on of stitches in the
+progress of the work. It is done by putting the worsted (see
+illustration No. 4) over the thumb of the left hand, holding
+the end between the second and third fingers, * take up the
+worsted around the thumb and lying toward the palm of the
+hand, by inserting the needle from under the worsted in an
+upward direction (see illustration No. 4), withdraw the thumb
+from the loop, pass the thumb under the end of worsted resting<span class="pagenum" id="Page_5">[5]</span>
+in the palm of the hand, and draw it to close the stitch.
+Repeat from *.</p>
+
+
+<p>No. 5.—The casting on of stitches illustrated in cut No. 5
+forms a narrow border after the first row has been knitted. In
+order to easily knit the first row, the casting on of stitches must
+be done on <i>a pair</i> of knitting needles. Unroll an end long
+enough for the required number of stitches. Double it. Fold
+this doubled end in half, insert the point of the needles into
+the fold, place on the first finger of the left hand the long end
+of the worsted which is among the short ends. Place the
+three short ends over the thumb. Hold all these ends with
+the second finger. Take on the needles the ends resting on
+the thumb (marked <i>b</i> in illustration), and insert them as shown
+in illustration No. 5. Then pass the needles through the loop
+on first finger, in the direction of the arrow, and pass this loop
+through the loop already formed on the needles, withdraw
+the thumb, close the stitch by drawing the three ends, which
+is done by passing the thumb under them.</p>
+
+<figure class="figright illowp45" id="i_006a" >
+  <img class="w100" src="images/i_006a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 6. Casting on of Double Stitches.</span></figcaption>
+</figure>
+
+<p>No. 6—<i>Double Casting on of Stitches.</i>—The difference between
+this method of casting on and the preceding is, that every knot
+forms, each time, two loops instead of one, on the needle. The first
+knot must be formed in the same manner as described in No. 5. In
+order to work the second knot, insert once more the needle into the
+loop of three ends which<span class="pagenum" id="Page_6">[6]</span>
+rest on the thumb, marked <i>a</i> in illustration No. 6. The arrow,
+in same illustration, shows where to insert the needle and the
+direction it has to take. This done, insert the needle downward into
+loop <i>b</i>, and draw the latter through loop resting on the thumb,
+withdraw the thumb and close the knot. Every loop on the needle must
+be knitted separately at the first row.</p>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="WHAT_TO_KNIT">
+  <img style="max-height: 1em; display: inline-block;margin-bottom: -.15em "
+src="images/i_006b2.jpg" alt=""> WHAT TO KNIT. 
+  <img style="max-height: 1em; display: inline-block; margin-bottom: -.15em"
+ src="images/i_006b.jpg" alt="">
+</h2>
+</div>
+
+<figure class="figcenter illowp30" id="hr2" >
+  <img class="w100" src="images/hr.jpg" alt="">
+  </figure>
+
+
+<figure class="figright illowp40" id="i_006c" >
+  <img class="w100" src="images/i_006c.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 7. Plain Knitting.</span></figcaption>
+</figure>
+
+<p>Cut No. 7 illustrates plain knitting. This is the stitch generally
+used in ordinary knitting. First, cast on the required number of
+stitches in one of the ways already described. This done, take in the
+left hand the needle on which are the loops, place the thread over
+the first finger of the left hand, hold it with the second finger of
+the same hand. Take the second needle with the right hand, insert its
+point into the stitch, in an upward direction, and throw the thread
+around the right hand needle, from right to left. Draw it through the
+preceding loop and slip the left hand needle from its loop. Every
+loop on the left hand needle is worked in the same manner.</p>
+
+<p>When all the stitches have been worked from the left
+hand needle, take that needle in the right hand and continue
+to work in same manner.</p>
+
+<p><span class="pagenum" id="Page_7">[7]</span></p>
+
+<figure class="figleft illowp40" id="i_007" >
+  <img class="w100" src="images/i_007.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 8. Purled Knitting.</span></figcaption>
+</figure>
+
+<p>To <i>Pearl</i>, <i>Purl</i> or <i>Seam</i>, (meaning the same thing), is done
+by holding with the left hand a needle on which a row of
+stitches has been cast. Take a needle in the right hand, place
+the cotton over the left hand
+needle and the first finger of the
+left hand, hold the end with the
+second finger of the same hand.
+Insert the right hand needle
+through the loop on the left hand
+needle, point right to left, in
+such a manner as to have the cotton just under the right hand
+needle. Pull this cotton through the loop, withdraw the left
+hand needle from the loop, and the purled stitch is formed.</p>
+
+<p><i>How to Repair a Stitch which has been Half Knitted, or
+Dropped while Knitting.</i>—In knitting, one ought to be careful
+not to drop stitches or to form half stitches. The latter happens
+when the thread thrown over the right hand needle has
+not been pulled through the loop of the left hand needle. To
+remedy this, while working the next round or row, take the
+thread which has been thrown over the needle from it, and
+pull it through the loop of the stitch. To repair a dropped
+stitch, insert the left needle into the stitch, gather all the
+threads on the right hand needle and pull them through the
+loop of the stitch, one after the other.</p>
+
+<p><i>To Increase.</i>—There are two ways to increase. The first
+is, to knit both in the lower part of the stitch and also in the
+stitch itself. The second way is to bring the cotton forward
+round the end of the right needle, to the front; this forms a
+loop on the right needle when the next stitch is knitted, and
+this extra loop is the made stitch. It is preferable to increase
+after the first manner in plain knitting, as this way of increasing
+is not so marked. The second manner is used in fancy
+knitting, as it leaves a little opening after the stitch is formed.</p>
+
+<p><i>To Slip a Stitch</i> is to take a stitch off the left needle and
+to <i>slip</i> it on to the right needle without knitting.</p>
+
+<p>With any work knitted in rows, it is necessary that the
+first stitch of every row be worked as a slipped stitch. If it
+is a row of <i>purl</i>, the first stitch must be slipped off as if it
+were plain knitting; if it is a row of <i>plain</i> knitting, slip the
+first stitch off as if it were purl knitting.</p>
+
+<p><span class="pagenum" id="Page_8">[8]</span></p>
+
+<p><i>How to Narrow.</i>—The usual way of narrowing is to knit
+two stitches together, viz.: put the right needle through two
+of the loops on the left needle, and knit them as one stitch.
+Another method is to slip a stitch, knit one, and then with
+the left needle cast the slipped stitch over the knitted stitch.
+When the narrowing is used to give a certain shape to the
+work, it is well to employ the first method when narrowing
+at the end of the round or row; and the second method when
+narrowing at the beginning of it.</p>
+
+<p><i>Casting Off</i> is done as follows: Knit two plain stitches,
+with the left needle throw the first stitch over the second,
+knit a third stitch, throw the second over the third, knit a
+fourth, throw the third over the fourth, and so on until the
+last stitch is worked. Pull the cotton through, and a knot is
+formed.</p>
+
+<p><i>The Joining of Ends</i> in knitting ought never to be done
+by knotting them together. It may be done so that no defect
+is visible on the right side of the work, by lapping them three
+inches together, and knitting five inches with doubled thread,
+leaving the ends on the wrong side of the work. These ends
+can then be neatly darned into the wrong side of the work.</p>
+
+
+<h3><span class="smcap">Lady’s Stocking.</span></h3>
+
+<p>To knit a stocking, attention must be given to the size of
+the knitting needles, which ought to correspond with the
+number of the material with which the stocking is to be
+knitted. It would be difficult to give the exact number of
+stitches necessary for any given size of stocking, as there is
+always a difference between the knitting of different persons,
+since some knit loosely, others very closely. It must be left
+to the judgment of the knitter to determine the exact number
+of stitches required for the stocking to be knitted.</p>
+
+<p>The following is the method of knitting a lady’s stocking
+with No. 300 knitting silk (or any other material of same size),
+with needles to correspond.</p>
+
+<p>This stocking is knitted, with a double border, as follows:</p>
+
+<p>Cast on 152 stitches on 3 needles. After having cast
+on the last stitch, close the round by knitting the <i>first</i> stitch
+cast on.</p>
+
+<p>Knit 16 rounds plain.</p>
+
+<p><span class="pagenum" id="Page_9">[9]</span></p>
+
+<p>17th Round.—* Slip 1, knit 1, draw the slip stitch over
+the knitted stitch, make 1; repeat from * to end of round.</p>
+
+<p>18th to 34th Rounds, inclusive.—Knit plain.</p>
+
+<p>Then fold in half the piece knitted, so that the 17th round
+will form the edge of the border.</p>
+
+<p>Pick up on other knitting needles the stitches of the 1st
+round, <i>i. e.</i>, the stitches cast on, and knit each of them with
+each stitch of the 34th round. This finishes the border. Thus,
+the lower edge of the border forms a fancy design of small
+scallops. Purl 3 rounds, knit plain 3 rounds, purl 3 rounds.</p>
+
+<p>Then knit plain until the leg of the stocking is twelve
+inches long. In the first round of <i>this</i> plain knitting begin
+the seam stitch, which ought to correspond with the last and
+first stitches cast on. This seam stitch is repeated in every
+third round.</p>
+
+<p>After the twelve inches have been knitted, narrow in the
+following round 1 stitch on each side of the seam. Knit 8
+rounds. Narrow 1 stitch on each side of seam. Knit 7
+rounds. Narrow, in manner already described. Knit 6 rounds.
+Narrow. Knit 5 rounds. * Narrow. Knit 4 rounds. Repeat
+20 times from * until 110 stitches and the 2 seam stitches are
+left on the needles. This done, knit plain 30 rounds. The
+knitting of the heel now begins. Divide the stitches by
+putting on 1 needle the 2 seam stitches and 28 stitches on
+each side of them. Thus, there will be upon this needle 58
+stitches. Knit this needle, backward and forward, in <i>rows</i>,
+making the seam stitches as usual.</p>
+
+<p>When knitting backward, purl <i>all</i> these stitches. When
+knitting forward, knit plain all the stitches with exception
+of the seam stitch, which must be purled. Always slip the
+first knitted stitch. Continue knitting until the flap is 44 rows
+long, counting each time across as 1 row.</p>
+
+<p>1st Row.—Now purl from the left hand side the 28
+stitches and the 2 seam stitches. Purl 2, knit 2 together,
+purl 1. Turn.</p>
+
+<p>2d Row.—Slip 1, 3 plain, 2 purl (seam stitches), 2 plain,
+knit 2 together, 1 plain. Turn.</p>
+
+<p>3d Row.—Slip 1, purl 8 (including seam stitches), purl 2
+together, purl 1. Turn.</p>
+
+<p><span class="pagenum" id="Page_10">[10]</span></p>
+
+<p>4th Row.—Slip 1, 4 plain, 2 purl (seam stitches), 3 plain,
+knit 2 together, 1 plain. Turn.</p>
+
+<p>5th Row.—Slip 1, purl 10 (seam stitch included), purl 2
+together, purl 1. Turn.</p>
+
+<p>Continue to knit in this wise until the remaining stitches
+are gradually worked off. Then pick up the side stitches of
+this flap, which amount to 36 on each side, and the heel is
+formed.</p>
+
+<p>Knit the side stitches of the flap, “making 1” now
+and then, so as to make the number of stitches on each side
+of the heel amount to 40.</p>
+
+<p>Knit again in rounds. After every 2 rounds purl the
+first 2 stitches together, then the last 2 stitches together, of
+the heel stitches. Narrow in this manner 12 times. This
+done, the number of stitches in the whole round is reduced to
+110, <i>i. e.</i>, to the original number before the beginning of the
+heel. Knit plain 50 rounds. Commence narrowing of toe as
+follows: * knit 2 together, knit 8 plain. Repeat from * to
+end of round. Knit 8 rounds plain. * Knit 2 together, knit
+7 plain. Repeat from * to end of round. Knit 7 rounds plain.
+Knit 2 together, knit 6 plain, knit 2 together, 6 plain, etc., to
+end of round.</p>
+
+<p>Knit 6 rounds plain; knit 2 together, 5 plain, 2 together,
+5 plain, etc., to end of round.</p>
+
+<p>Knit 5 rounds plain; knit 2 together, 4 plain, 2 together,
+4 plain, etc., to end of round.</p>
+
+<p>Knit 4 rounds plain; knit 2 together, 3 plain, 2 together,
+3 plain, etc., to end of round.</p>
+
+<p>Knit 3 rounds plain; knit 2 together, 2 plain, 2 together,
+2 plain, etc., to end of round.</p>
+
+<p>Knit 2 rounds plain; knit 2 together, 1 plain, 2 together,
+1 plain, etc., to end of round.</p>
+
+<p>Knit 1 round plain.</p>
+
+<p>11 stitches now remain. By means of a darning needle,
+slip these stitches upon the silk thread with which the knitting
+is done. Pass this silk once more through the stitches,
+then draw all the stitches together, by pulling the silk thread.
+Fasten the thread on the wrong side of the stocking.</p>
+
+<p><span class="pagenum" id="Page_11">[11]</span></p>
+
+
+<h3><span class="smcap">Heels of Stockings.</span></h3>
+
+<p>There are three other ways of knitting a stocking-heel, as
+illustrations 9, 10 and 11 show. In the directions for knitting
+these heels, the same number of stitches is taken as in the
+directions for knitting the heel of “lady’s stocking,” <i>i. e.</i>, 28
+stitches on each side of the 2 seam stitches, thus leaving 54
+for the front of the foot.</p>
+
+<figure class="figright illowp50" id="i_011a" >
+  <img class="w100" src="images/i_011a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 9. Heel of a Stocking.</span></figcaption>
+</figure>
+
+<p><i>Heel No. 9.</i>—Knit 44 rows backward (purling) and forward
+(plain). While knitting these rows, make a seam stitch
+on each side of the flap. These 2
+seams must correspond with the
+seam in the center of the flap.
+See illustration No. 9.</p>
+
+<p>When the 44 rows have been
+knitted, the rounding of the heel
+begins. Knit from right hand
+side 19 stitches (including the
+side seam stitch), knit 2 together,
+knit 14 plain (center seam
+stitch inclusive), slip 1, knit 1
+plain, draw the slip stitch over
+the 1 plain. Knit 5 plain. Turn.
+Slip 1, purl 25. Turn. Slip 1,
+knit 3 plain, knit 2 together, knit 14 plain, slip 1, knit 1 plain,
+draw the slip stitch over the 1 plain, knit 5 plain. Turn.
+Slip 1, purl 25.</p>
+
+<p>Continue working thus to
+the end of cap, alternating
+every time each row in same
+manner as described. When
+the heel is finished, 26 stitches
+must remain on the needle.</p>
+
+<figure class="figleft illowp50" id="i_011b" >
+  <img class="w100" src="images/i_011b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 10. Heel.</span></figcaption>
+</figure>
+
+<p><i>Heel No. 10.</i>—This heel is
+knitted partly in rounds with
+the front of the foot, and partly
+by itself in rows. Divide
+the stitches evenly on 4 needles,
+and knit in rounds with
+a fifth needle. After every 2
+rounds “make 1,” just before<span class="pagenum" id="Page_12">[12]</span>
+knitting the first of the stitches belonging to the heel, and
+“make 1” after having knitted them. Repeat this 13 times.</p>
+
+<p>This done, begin the cap of the heel. Put on a special
+needle the 12 middle stitches (6 on each side of the seam
+stitch), and knit these in <i>rows</i>, forward and backward, until
+16 rows have been worked. Narrow at the end of each of
+these rows, in knitting the last stitch of the row together with
+the first of the remaining stitches on the next needle, then
+knit the following stitch and turn.</p>
+
+<p>Knit 16 rows more without narrowing, but at the end of
+each row knit 1 of the stitches remaining on the next needle,
+and then turn to knit the following row.</p>
+
+<p>When this is done, continue to knit in rows, and narrow
+again at the end of each row by knitting the last stitch of
+each row together with one of the remaining stitches on the
+next needle; then turn and knit the following row. When
+the remaining stitches have all been narrowed into the heel,
+then begin to knit the foot in rounds.</p>
+
+<figure class="figright illowp50" id="i_012" >
+  <img class="w100" src="images/i_012.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 11. Heel.</span></figcaption>
+</figure>
+
+<p><i>Heel No. 11.</i>—To work
+this heel, knit a flap of a
+good length in rows, backward
+and forward. Then
+put on a special needle the
+22 stitches in the center, 11
+on each side of the seam
+stitch, and knit these in
+rows, backward and forward.
+In every <i>plain</i> row
+knit the 4th and 5th stitches
+together, and then the
+19th and 20th stitches together.
+At the end of <i>every
+row</i> knit 1 of the remaining stitches. When all these remaining
+stitches have been worked, then pick up the side stitches
+of the flap, and the heel is finished.</p>
+
+
+<h3><span class="smcap">How to Knit the Toe of a Stocking.</span></h3>
+
+<figure class="figright illowp50" id="i_013a" >
+  <img class="w100" src="images/i_013a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 12. Toe.</span></figcaption>
+</figure>
+
+<p>No. 12.—This toe is worked as follows: Narrow after every
+7 stitches, in the first round to be narrowed. Then knit 7 rounds
+plain. Narrow in the following round after every 6 stitches.<span class="pagenum" id="Page_13">[13]</span>
+Knit 6 rounds plain. Narrow
+in the next round after every
+5 stitches. Knit 5 rounds
+plain. Continue working in
+such manner, always knitting
+1 stitch less between the narrowings
+in every new round
+which is to be narrowed, and
+always knitting after every
+round narrowed the same
+number of plain rounds as the number of stitches knitted
+between the narrowings of this last round narrowed.</p>
+
+<figure class="figleft illowp50" id="i_013b" >
+  <img class="w100" src="images/i_013b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 13. Toe.</span></figcaption>
+</figure>
+
+<p>No. 13.—Before beginning to decrease this toe, divide the
+stitches evenly on 4 needles. Then narrow at the beginning
+of every needle; slip the first
+stitch, knit the next one, and
+draw the slipped stitch over
+the knitted one. After <i>each</i>
+of the first 4 narrowed rounds
+knit 4 rounds plain. After
+<i>each</i> of the next 4 narrowed
+rounds knit 3 rounds plain.
+After <i>each</i> of the following 4
+narrowed rounds knit 2
+rounds plain, and after <i>each</i>
+of the following 4 narrowed rounds knit 1 round plain. Then
+continue to narrow at the beginning of every needle to end
+of toe.</p>
+
+<figure class="figright illowp50" id="i_013c" >
+  <img class="w100" src="images/i_013c.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 14. Toe.</span></figcaption>
+</figure>
+
+<p>No. 14.—The narrowing of this toe is done as follows:
+Divide equally on 4 needles the number of stitches. Then
+begin the first round of narrowing
+by purling 2 together
+at the beginning of every needle.
+This round is followed
+by 4 rounds plain. In all the
+narrowing rounds that follow
+the first one, decrease once on
+each side of the preceding
+narrowing. After every narrowed
+round knit 4 rounds<span class="pagenum" id="Page_14">[14]</span>
+plain. Knit in all, 11 narrowing rounds. Then finish off the
+toe by narrowing only once at the end of <i>each</i> needle, by slipping
+1 stitch, knitting the next, and drawing the slipped
+stitch over the knitted one.</p>
+
+
+<h3><span class="smcap">To Renew the Heel and Sole of Stockings
+Knitted by Hand.</span></h3>
+
+<figure class="figright illowp50" id="i_014a" >
+  <img class="w100" src="images/i_014a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 15. Position of Needles to Renew
+a Stocking Heel.</span></figcaption>
+</figure>
+
+<figure class="figleft illowp50" id="i_014b" >
+  <img class="w100" src="images/i_014b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 16. The Fastening of the New Heel.</span></figcaption>
+</figure>
+
+<p>Illustrations 15 to 18 show the manner of doing this. To
+renew the heel of a stocking, first remove the damaged heel by
+cutting along the sides
+of the heel, at the end
+of the cap and at the
+beginning of the heel.
+Make even the stitches
+belonging to the parts
+from which the heel has
+just been cut. Take
+up these stitches on 5
+needles, as illustrated in
+cut No. 15. Take up on
+2 needles the stitches belonging
+to the heel. Then
+take up the side stitches
+(each side) on 1 needle.
+The remaining stitches
+belong to the fifth needle,
+that is, those which will serve for the joining of the cap
+of the heel. Then, with the stitches belonging to the heel,
+begin to knit the heel in rows, to
+and fro. But, at the end of
+every plain row, always knit
+the last stitch of the row together
+(plain) with the next stitch on
+the side needle. The same must
+be done at the end of every
+purled row, only the last stitch
+with the next stitch on the side
+needle have to be <i>purled</i> together,
+instead of knitted plain.
+When the heel has reached the<span class="pagenum" id="Page_15">[15]</span>
+required length, then begin to knit the cap of the heel in the
+usual way, until the number of stitches corresponds to the
+number of stitches of the fifth needle. Join these 2 rows of
+stitches together, as illustrated in cut No. 16. This is done by
+darning. Take an end of the cotton long enough for this purpose,
+and pass it, by means of a darning needle, downward
+through the last stitch of the stocking, and through the first
+one of the stitches on the fifth needle, or upper row. Then
+pass it through the next 2 corresponding stitches of the cap
+of the heel. See illustration No. 17, which shows the needle
+inserted in the 2 stitches through
+which the cotton is to be drawn.
+Pass the needle through the next
+2 corresponding stitches of the
+upper row, in the same direction as
+is shown by the arrow in illustration
+No. 17. From there * pass it
+through the last stitch, already
+worked, of the lower row, and through next stitch; then
+through the next 2 corresponding stitches of the upper row.
+Slip every time the stitch from the knitting needle after having
+passed the cotton through them. Repeat from * until all
+the stitches of the 2 rows are joined to each other. When
+this is done, fasten the cotton
+on the wrong side of the stocking
+by drawing it through a few
+stitches.</p>
+
+<figure class="figright illowp50" id="i_015a" >
+  <img class="w100" src="images/i_015a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 17. Stitch for the Fastening
+of a New Heel.</span></figcaption>
+</figure>
+
+<p>Illustration No. 17 represents
+only a part of the joining,
+where the stitches are worked
+very loosely, in order that it
+might be copied more easily.
+Yet, while working, the stitches
+of the joining must be drawn to
+the same size as the knitted
+stitches of the stocking, and in
+such a manner that the joining
+cannot be detected from the
+knitting.</p>
+
+<figure class="figleft illowp50" id="i_015b" >
+  <img class="w100" src="images/i_015b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 18. Re-soling the Foot of a Stocking.</span></figcaption>
+</figure>
+
+<p>No. 18—<i>How to Re-sole the Foot of a Stocking</i>.—In order<span class="pagenum" id="Page_16">[16]</span>
+to do this, a new heel must first be knitted to the stocking in
+the usual way. When this is done, pick up the side stitches
+of the heel and begin to knit the sole in <i>rows</i>, to and fro, 1 row
+plain, the other purled. At the end of every plain row pick
+up the last stitch of the <i>corresponding</i> row of the old sole, and
+knit it together, plain, with the last stitch of row just knitted.
+The same thing must be done at the end of every purled row,
+only purl the 2 stitches together instead of knitting them plain
+together. Always slip, plain, the first stitch of every row.</p>
+
+<p>The narrowing of the sole, on both sides, must be done
+just before knitting together the last stitch of the row and
+the last stitch of the corresponding row of the old sole.</p>
+
+<p>After the new sole has been knitted, turn the stocking on
+the wrong side; cut off the old sole along both sides, yet leaving
+a strip of 4 stitches in width on each side. Lay each strip
+towards the front part of the foot. Unravel them. Smooth
+down the ends formed by the unraveling, and fasten them to
+the stocking by darning over them lightly, so that this darning
+might not be seen on the right side of the stocking. Should
+the stocking require a new toe to be knitted on, then unravel
+the old one, pick up the stitches and knit a new toe in rounds,
+in one of the ways already described in the book.</p>
+
+
+<h3><span class="smcap">How to Darn Stockings.</span></h3>
+
+<p>The darning of a stocking can be done in different ways.
+The way most generally adopted is that of cross-work darning,
+which looks very well when neatly worked. But the
+darning in imitation of the knitted stitch, although more tedious,
+is preferable; for, when it is well worked, it cannot be
+told from the knitting, except on the wrong side.</p>
+
+<figure class="figright illowp30" id="i_016" >
+  <img class="w100" src="images/i_016.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 19. Cross-Work Darning.</span></figcaption>
+</figure>
+
+<p>No. 19—<i>Cross-Work Darning</i>.—Trim neatly the place
+which is to be darned, then work a
+foundation of threads length-wise across
+the opening, as is shown in illustration
+No. 19. This done, begin to darn across
+this foundation, in rows, to and fro, by
+taking up every other thread of the
+foundation. In every following row
+take up the thread which was not taken
+up in the preceding row. See illustration<span class="pagenum" id="Page_17">[17]</span>
+No. 19. The darning must be prolonged to a little distance
+on each side of the original opening.</p>
+
+<figure class="figright illowp30" id="i_017a" >
+  <img class="w100" src="images/i_017a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 20. Darning in Imitation
+of Knitted Stitch.</span></figcaption>
+</figure>
+
+<p>No. 20—<i>To Imitate the Knitted Stitch in Darning</i>.—This
+work requires careful preparation. Loosen the damaged
+part, above and below it, in the width, in such a way that
+there will remain 2 even rows of perfect
+loose stitches. The first and last stitches
+of the upper row must correspond to
+those of the lower row. Cut the damaged
+part through the middle. Fold
+each half back upon the inside of the
+stocking, where it will have to be
+trimmed and fastened. Work a foundation
+of threads across the opening,
+width-wise, inserting each thread into the second stitch from
+the edge of the opening, and making it correspond with every
+knitted row. See illustration No. 20.</p>
+
+<p>Then work on this foundation as follows: Place the darning
+cotton at the left, pass the darning needle downward
+under the lowest of the threads of foundation, and pull gently
+the darning cotton, so as to form the half of a stitch. Work
+in same manner on the other foundation threads. After making
+the half stitch upon the top thread of foundation, pass
+the needle through the nearest upper stitch of the stocking.
+Turn the work. Place the darning cotton towards the right.
+Pass the needle downward, under the top thread of foundation,
+draw the cotton lightly, and in this way the first whole
+stitch will be formed. Continue to work in same manner on
+the foundation threads, until the entire work is done.</p>
+
+<p>Illustrations 21 to 23 show a
+different way of imitating the
+knitted plain stitch in darning.</p>
+
+<figure class="figleft illowp30" id="i_017b" >
+  <img class="w100" src="images/i_017b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 21. Foundation for No. 22.</span></figcaption>
+</figure>
+
+<p>To darn after this method, remove
+the damaged part and prepare
+the opening for foundation
+threads in same manner as already
+described in preceding number.
+Take for foundation thread a cotton
+finer than the one with which
+the darning stitches have to be<span class="pagenum" id="Page_18">[18]</span>
+worked. Work the foundation threads <i>length-wise</i> on the
+wrong side of the stocking, as shown in illustration No. 21.
+This done, turn the stocking on the right side and begin the
+darning in imitation of the knitted stitch. Work width-wise,
+as follows:</p>
+
+<figure class="figright illowp30" id="i_018a" >
+  <img class="w100" src="images/i_018a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 22. Formation of the Darning
+Stitches on Foundation No. 21</span>.</figcaption>
+</figure>
+
+<p>Pass the darning needle through the upper 2 stitches, as
+shown in illustration No. 22, then pass it, in the direction of
+the arrow, under the next 2 threads
+of foundation. Insert the needle
+into the last stitch, through which
+it has already passed, and pass it
+through the stitch next to it. Then
+pass it under the next 2 corresponding
+threads of foundation.
+Continue working in like manner.
+When the end of the row is
+reached, work in same stitch over
+the next 3 stitches of the knitting.</p>
+
+<figure class="figleft illowp30" id="i_018b" >
+  <img class="w100" src="images/i_018b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 23. Finishing off</span>.</figcaption>
+</figure>
+
+<p>After working over the third stitch, insert the needle downward—along
+the part which is not yet darned—into the
+upper part of that third stitch, take up the cross bar of the
+stitch and draw the cotton through. Then turn the work
+from left to right and begin the next row. When the work
+has come down to the lower edge of the opening, work the last
+row in the usual way; but, instead of passing the needle under
+the foundation threads, pass it
+through the corresponding stitches
+of this edge, as is shown in illustration
+No. 23.</p>
+
+<p>When the darning is done,
+withdraw carefully the foundation
+threads. Trim the damaged part
+on the wrong side of the stocking,
+and fasten it neatly, as already
+stated in directions No. 20.</p>
+
+
+<h3><span class="smcap">Borders for Stockings</span>.</h3>
+
+<figure class="figleft illowp50" id="i_019" >
+  <img class="w100" src="images/i_019.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 24. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 24.—Cast on a number of stitches divisible by 7. The
+first 5 rounds knit plain.</p>
+
+<p><span class="pagenum" id="Page_19">[19]</span></p>
+
+<p>6th round.—Make 1, knit 2
+together, plain, alternately to
+end of round.</p>
+
+<p>7th to 11th rounds.—Alternate
+1 purl, 1 plain.</p>
+
+<p>12th round.—Pick up on
+other knitting needles the
+stitches of the first round (the
+stitches cast on) and knit each
+of them with each stitch of the
+11th round.</p>
+
+<p>13th, 14th and 15th rounds.—Purl.</p>
+
+<p>16th round.—* Make 1, purl
+2 together, 5 plain. Repeat
+from * to end of round.</p>
+
+<p>17th round.—Knit plain.</p>
+
+<p>18th round.—* Make 1, 1 plain, purl 2 together, 4 plain.
+Repeat from *.</p>
+
+<p>19th round.—Knit plain.</p>
+
+<p>20th round.—* Make 1, 2 plain, purl 2 together, 3 plain.
+Repeat from *.</p>
+
+<p>21st round.—Knit plain.</p>
+
+<p>22d round.—* Make 1, 3 plain, purl 2 together, 2 plain.
+Repeat from *.</p>
+
+<p>23d round.—Knit plain.</p>
+
+<p>24th round.—* Make 1, 4 plain, purl 2 together, 1 plain.
+Repeat from *.</p>
+
+<p>25th round.—Knit plain.</p>
+
+<p>26th round.—* Make 1, 5 plain, purl 2 together. Repeat
+from *.</p>
+
+<p>27th round.—Knit plain.</p>
+
+<p>28th round.—* 2 plain, purl 2 together, make 1, 3 plain.
+Repeat from *.</p>
+
+<p>29th round.—Knit plain.</p>
+
+<p>30th round.—* 1 plain, purl 2 together, 1 plain, make 1,
+3 plain. Repeat from *.</p>
+
+<p>31st round.—Knit plain.</p>
+
+<p>32d round.—* Purl 2 together, 2 plain, make 1, 3 plain.
+Repeat from *.</p>
+
+<p><span class="pagenum" id="Page_20">[20]</span></p>
+
+<p>33d round.—Knit plain.</p>
+
+<p>In rounds 34, 36 and 38, slip 1 stitch of the last needle
+upon the first needle, and purl that stitch with the following
+stitch together.</p>
+
+<p>34th round.—* Purl 2 together, 3 plain, make 1, 2 plain.
+Repeat from *.</p>
+
+<p>35th round.—Knit plain.</p>
+
+<p>36th round.—* Purl 2 together, 4 plain, make 1, 1 plain.
+Repeat from *.</p>
+
+<p>37th round.—Knit plain.</p>
+
+<p>38th round.—* Purl 2 together, 5 plain, make 1. Repeat
+from *.</p>
+
+<figure class="figcenter illowp80" id="i_020" >
+  <img class="w100" src="images/i_020.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 25. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>For Border No. 25 cast on a number of stitches divisible
+by 8. Knit 8 rounds plain.</p>
+
+<p>9th round.—* Slip 1, 1 plain, draw the slipped stitch over
+the 1 plain, make 1. Repeat from * to end of round.</p>
+
+<p>10th to 17th rounds.—Knit plain.</p>
+
+<p>18th round.—Pick up on other needles the stitches of the
+first round (that is, the stitches cast on) and knit each of
+them with each stitch of the 17th round. Then begin the
+design.</p>
+
+<p><span class="pagenum" id="Page_21">[21]</span></p>
+
+<p>1st round.—* Purl 2, make 1, 4 plain, knit 2 together,
+plain. Repeat from * to end of round.</p>
+
+<p>2d round.—* Purl 2, 1 plain, make 1, 3 plain, knit 2 together,
+plain. Repeat from *.</p>
+
+<p>3d round.—* Purl 2, 2 plain, make 1, 2 plain, knit 2 together,
+plain. Repeat from *.</p>
+
+<p>4th round.—* Purl 2, 3 plain, make 1, 1 plain, knit 2
+together, plain. Repeat from *.</p>
+
+<p>5th round.—* Purl 2, 4 plain, make 1, knit 2 together,
+plain. Repeat from *.</p>
+
+<p>Repeat this design twice and then work the following 2
+rounds like the 9th and 10th rounds, already described.</p>
+
+<figure class="figleft illowp60" id="i_021" >
+  <img class="w100" src="images/i_021.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 26. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>Border No. 26.—Cast on a
+number of stitches divisible
+by 8. Knit the lower edge of
+the design as described in
+preceding number. Then
+work the design as follows:</p>
+
+<p>1st round.—* Purl 3,
+make 1, knit 2 together,
+plain, 3 plain. Repeat
+from *.</p>
+
+<p>2d round.—* Purl 3,
+make 1, 1 plain, knit 2 together,
+plain, 2 plain. Repeat
+from *.</p>
+
+<p>3d round.—* Purl 3, make 1, 2 plain, knit 2 together,
+plain, 1 plain. Repeat from *.</p>
+
+<p>4th round.—* 3 Purl, make 1, 3 plain, knit 2 together,
+plain. Repeat from *.</p>
+
+<p>5th round.—* Purl 3, 3 plain, knit 2 together, plain, make
+1. Repeat from *.</p>
+
+<p>6th round.—* Purl 3, 2 plain, knit 2 together, plain, 1
+plain, make 1. Repeat from *.</p>
+
+<p>7th round.—* Purl 3, 1 plain, knit 2 together, plain, 2
+plain, make 1. Repeat from *.</p>
+
+<p>8th round.—* Purl 3, knit 2 together, plain, 3 plain, make
+1. Repeat from *.</p>
+
+<p>Repeat this design until the desired breadth of border is
+reached.</p>
+
+<p><span class="pagenum" id="Page_22">[22]</span></p>
+
+<figure class="figleft illowp60" id="i_022a" >
+  <img class="w100" src="images/i_022a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 27. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 27.—The lower edge of
+this border is scalloped and
+worked as follows:</p>
+
+<p>Cast on the number of stitches
+required for the stocking.</p>
+
+<p>Knit 4 rounds plain.</p>
+
+<p>5th round.—* Make 1, knit 2
+together, plain. Repeat from *
+to end of round.</p>
+
+<p>Knit plain the next 4 rounds.</p>
+
+<p>Then pick up on other needles the stitches of the first
+round (that is, the stitches cast on) and knit each of these
+stitches with each of the stitches of the ninth round. Begin
+the design.</p>
+
+<p>1st round.—* Make 1, 1 twist stitch (knitted from the
+back), knit 2 together in twist stitch, purl 1. Repeat from *.</p>
+
+<p>2d round.—* 3 plain—the first of the 3 is formed from the
+newly made stitch in the last round—purl 1. Repeat from *
+to end of round.</p>
+
+<p>The design consists of these 2 rounds, which are alternately
+repeated until the border has reached its desired
+breadth. Finish the border with 2 rounds of purled stitches.</p>
+
+<figure class="figright illowp70" id="i_022b" >
+  <img class="w100" src="images/i_022b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 28. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 28.—Cast on
+a number of stitches
+divisible by 13.</p>
+
+<p>1st round.—1
+twist stitch, purl 1, 1
+twist stitch, purl 3.
+In the following 4
+stitches the 1st and
+4th must be crossed
+by knitting first the
+4th stitch plain, so
+that it will lay over
+the 1st one; then,
+purl the 2d and 3d;
+knit the 1st stitch plain. This done, purl 3. Repeat from *.</p>
+
+<p>2d round.—* 1 twist stitch, 1 plain, 1 twist stitch, 3 purl,
+1 plain, 2 purl, 1 plain, 3 purl. Repeat from *. Knit 4 rounds
+more like this second round; but from now on the 1 plain<span class="pagenum" id="Page_23">[23]</span>
+worked between the 2 twist  stitches must, in 1 round, alternate 
+with 1 plain, and in the other with 1 purl.</p>
+
+<p>Then repeat again from 1st round.</p>
+
+<figure class="figleft illowp65" id="i_023a" >
+  <img class="w100" src="images/i_023a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 29. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 29.—Cast on
+a number of
+stitches divisible
+by 7.</p>
+
+<p>1st round.—* 5
+purl, make 1, purl
+2 together. Repeat
+from *.</p>
+
+<p>2d to 7th rounds.—*
+6 purl, 1 plain.
+Repeat from *. The
+1 plain in the
+second round is
+formed by knitting
+plain the 1 made stitch of the first round.</p>
+
+<p>Repeat so that every other design will correspond. See
+illustration No. 29.</p>
+
+<figure class="figcenter illowp80" id="i_023b" >
+  <img class="w100" src="images/i_023b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 30. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 30.—Cast on a number of stitches divisible by 21.
+Knit in rounds as follows:</p>
+
+<p><span class="pagenum" id="Page_24">[24]</span></p>
+
+<p>1st round.—* Make 1, 1 twist stitch. Alternate 5 times:
+3 purl, 1 twist stitch. Repeat from *.</p>
+
+<p>2d round.—* 1 plain. Alternate 5 times: 1 twist stitch,
+3 purl. Then work 1 twist stitch. Repeat from *.</p>
+
+<p>3d round.—* Make 1, 1 plain, make 1, 1 twist stitch.
+Alternate 5 times: 3 purl, 1 twist stitch. Repeat from *.</p>
+
+<p>4th round.—* 3 plain. Alternate 5 times: 1 twist stitch,
+1 purl, narrow (<i>i. e.</i>, purl 2 together). Then work 1 twist
+stitch. Repeat from *.</p>
+
+<p>5th round.—* Make 1, 1 plain, make 1, narrow plain,
+make 1, 1 twist stitch. Alternate 5 times: 2 purl, 1 twist stitch.
+Repeat from *.</p>
+
+<p>6th round.—* 5 plain. Alternate 5 times: 1 twist stitch,
+2 purl. Then 1 twist stitch. Repeat from *.</p>
+
+<p>7th round.—* Make 1, narrow, make 1, 1 plain, make 1,
+narrow, make 1, 1 twist stitch. Alternate 5 times: narrow, 1
+twist stitch. Repeat from *.</p>
+
+<p>8th round.—* 7 plain. Alternate 5 times: 1 twist stitch,
+1 purl. Then 1 twist stitch. Repeat from *.</p>
+
+<p>9th round.—* Make 1, narrow, make 1, narrow, make 1,
+1 plain, make 1, narrow, make 1, 1 twist stitch. Alternate 5
+times: 1 purl, 1 twist stitch. Repeat from *.</p>
+
+<p>10th round.—* 9 plain. Alternate 5 times: 1 twist stitch,
+1 purl. Then 1 twist stitch. Repeat from *.</p>
+
+<p>11th round.—* Make 1, narrow, make 1, narrow, make 1,
+narrow, make 1, 1 plain stitch, make 1, narrow, make 1, 1
+twist stitch. Alternate 5 times: 1 purl, 1 twist stitch. Repeat
+from *.</p>
+
+<p>12th round.—* 11 plain. Alternate 5 times: 1 twist stitch,
+1 purl. Then work 1 twist stitch. Repeat from *.</p>
+
+<p>13th round.—* Make 1, narrow, make 1, narrow, make 1,
+1 plain, make 1, narrow, make 1, narrow, make 1, narrow,
+make 1, 1 twist stitch. Alternate 5 times: 1 purl, 1 twist
+stitch. Repeat from *.</p>
+
+<p>14th round.—* 13 plain, 1 twist stitch. Narrow 5 times
+in twist stitch. Repeat from *.</p>
+
+<p>15th round.—* Alternate 3 times: make 1, narrow. Then
+make 1, 1 plain. Alternate 3 times: make 1, narrow. Then
+make 1, 6 twist stitches. Repeat from *.</p>
+
+<p>16th round.—15 plain. Knit on a special needle the following<span class="pagenum" id="Page_25">[25]</span>
+6 stitches, then wind the cotton 4 times, just below,around the 6 stitches just knitted. Slip the 6 stitches on the
+working needle. Knit plain the next 15 stitches, etc.</p>
+
+<p>Repeat the design from first round, but in such a manner
+as to form pattern shown in illustration No. 30.</p>
+
+<figure class="figleft illowp55" id="i_025a" >
+  <img class="w100" src="images/i_025a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 31. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 31.—Cast on a number
+of stitches divisible by 5.
+Knit plain the first 5 rounds.</p>
+
+<p>6th round.—* Make 2, narrow
+2 stitches. Repeat from *.</p>
+
+<p>7th round.—* With the 2
+made stitches of last round
+alternate 1 plain, 1 purl.
+Work 1 plain. Repeat from *.</p>
+
+<p>8th to 11th rounds.—Alternate
+to end of round, 2 purl,
+1 plain.</p>
+
+<p>12th round.—Pick up on
+special needles the stitches of
+1st round (<i>i. e.</i>, the stitches
+cast on), and knit each of
+them with each stitch of the
+11th round.</p>
+
+<p>13th round.—Make 1, knit 2 together, plain, alternately
+to end of round.</p>
+
+<p>14th round.—Knit plain.</p>
+
+<p>15th and 16th rounds.—Purl.</p>
+
+<p>17th round.—Knit plain.</p>
+
+<p>18th round.—* 3 purl, knit 2 together, plain, make 1.
+Repeat from *.</p>
+<p><span class="pagenum" id="Page_26">[26]</span></p>
+<p>19th to 21st rounds.—3 purl, 2 plain, alternately to end
+of round.</p>
+
+<p>22d round.—* 3 purl, make 1, narrow. Repeat from *.</p>
+
+<p>23d to 25th rounds.—* 3 purl, 2 plain. Repeat from *.</p>
+
+<p>Repeat from 18th to 25th rounds, inclusive, until the
+required breadth of border is reached.</p>
+
+<figure class="figcenter illowp80" id="i_025b" >
+  <img class="w100" src="images/i_025b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 32. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 32.—Cast on a number of stitches divisible by 9.</p>
+
+<p>1st to 3d rounds.—Purl.</p>
+
+<p>4th round.—* 2 plain, purl 2 together twice, 2 plain, make
+1, 1 plain, make 1. Repeat from *.</p>
+
+<p>5th round.—* 2 plain, 2 purl, 5 plain. Repeat from *.</p>
+
+<p>Alternate 12 times the 4th and 5th rounds.</p>
+
+<figure class="figcenter illowp80" id="i_026" >
+  <img class="w100" src="images/i_026.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 33. Border for Stocking.</span></figcaption>
+</figure>
+
+<p>No. 33.—Cast on a number of stitches divisible by 8.</p>
+
+<p>1st round.—* 8 plain, make 1 plain by knitting the thread
+connecting the 8th and 9th stitches. Repeat from * to end of
+round.</p>
+
+<p>2d and 3d rounds.—* 8 plain, slip 1 stitch, viz.: the stitch
+which has been formed from the thread connecting the 8th
+and 9th stitches of last round. Repeat from *.</p>
+
+<p>4th round.—* Knit 2 together, plain, make 1, knit 2 together,
+make 1, knit 2 together, make 1, knit 2 together, make
+1, knit 1 plain, viz.: the stitch which was slipped in the 2 last
+rounds. Repeat from *.</p>
+
+<p>5th to 7th rounds.—8 purl, 1 plain, alternately to end of
+round.</p>
+
+<p>Repeat the design from 1st to 7th rounds, inclusive; but,
+instead of making in the 1st round 1 plain by knitting the
+connecting thread, slip the stitch coming after the 8 plain.</p>
+
+<p><span class="pagenum" id="Page_27">[27]</span></p>
+
+
+<h3><span class="smcap">Fancy Designs for Knitting.</span></h3>
+
+<figure class="figleft illowp50" id="i_027a" >
+  <img class="w100" src="images/i_027a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 34. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 34.—This design is worked on 2 needles, in rows, to
+and fro. Cast on 27 stitches.</p>
+
+<p>1st row.—1 slip stitch, 2 plain, make 1, narrow (<i>i. e.</i>, knit
+2 together, plain), make 1, 3 plain, 1 purl, 2 plain, narrow, 1
+purl, narrow, 2 plain, 1 purl, 3
+plain, make 1, 2 plain, make 1,
+narrow, 1 plain.</p>
+
+<p>2d row.—1 slip stitch, 2 plain,
+make 1, narrow, 4 purl, 1 plain,
+3 purl, 1 plain, 3 purl, 1 plain,
+4 purl, 2 plain, make 1, narrow,
+1 plain.</p>
+
+<p>3d row.—1 slip stitch, 2 plain,
+make 1, narrow, make 1, 1 plain,
+make 1, narrow, 1 plain, 1 purl,
+1 plain, narrow, 1 purl, narrow,
+1 plain, 1 purl, 1 plain, narrow,
+make 1, 1 plain, make 1, 2 plain, make 1, narrow, 1 plain.</p>
+
+<p>4th row.—1 slip stitch, 2 plain, make 1, narrow, 5 purl, 1
+plain, 2 purl, 1 plain, 2 purl, 1 plain, 5 purl, 2 plain, make 1,
+narrow, 1 plain.</p>
+
+<p>5th row.—1 slip stitch, 2 plain, make 1, narrow, make 1,
+3 plain, make 1, narrow, 1 purl, narrow, 1 purl, narrow, 1 purl,
+narrow, make 1, 3 plain, make 1, 2 plain, make 1, narrow, 1
+plain.</p>
+
+<p>6th row.—1 slip stitch, 2 plain, make 1, narrow, 6 purl, 1
+plain, 1 purl, 1 plain, 1 purl, 1 plain, 6 purl, 2 plain, make 1,
+narrow, 1 plain.</p>
+
+<p>7th row.—1 slip stitch, 2 plain, make 1, narrow, make 1,
+5 plain, make 1, knit 3 together, 1 purl, knit 3 together, make
+1, 5 plain, make 1, 2 plain,
+make 1, narrow, 1 plain.</p>
+
+<p>8th row.—1 slip stitch, 2
+plain, make 1, narrow, 8 purl,
+1 plain, 8 purl, 2 plain, make
+1, narrow, 1 plain.</p>
+
+<p>Repeat the design from
+1st to 8th rows, inclusive.</p>
+
+<figure class="figright illowp50" id="i_027b" >
+  <img class="w100" src="images/i_027b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 35. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p><span class="pagenum" id="Page_28">[28]</span></p>
+
+<p>No. 35.—1st row.—Knit plain.</p>
+
+<p>2d row.—* 2 purl, knit 2 together, plain, in twist stitch,
+make 1. Repeat from *.</p>
+
+<p>3d row.—Knit plain.</p>
+
+<p>4th row.—* 2 purl, make 1, knit 2 together, plain, in
+twist stitch.</p>
+
+<figure class="figleft illowp60" id="i_028a" >
+  <img class="w100" src="images/i_028a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 36. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 36.—For this design
+cast on the number of
+stitches required for the
+length of the work. Knit
+in rows, as follows:</p>
+
+<p>1st row.—Plain.</p>
+
+<p>2d row.—* Knit 3 together,
+plain, make 3 (<i>i. e.</i>,
+knit in the next stitch 1
+plain, 1 purl, 1 plain).
+Repeat from *.</p>
+
+<p>3d row.—Knit plain.</p>
+
+<p>4th row.—* Make 3 (<i>i. e.</i>, knit in next stitch 1 plain, 1
+purl, 1 plain), knit 3 together, plain. Repeat from *.</p>
+
+<p>Then begin again from 1st row.</p>
+
+<figure class="figleft illowp60" id="i_028b" >
+  <img class="w100" src="images/i_028b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 37. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 37.—1st row.—* 1 plain,
+make 1, knit 2 together, plain.
+Repeat from *.</p>
+
+<p>2d row.—* Make 1, knit 2
+together, plain (<i>i. e.</i>, knit together
+the next stitch and the
+made stitch of last row), 1
+<ins id="durl" class="corr" title="Transcriber's Note&mdash;original text: durl">purl</ins>.</p>
+
+<figure class="figright illowp50" id="i_028c" >
+  <img class="w100" src="images/i_028c.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 38. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 38.—This pretty design is worked in rows, to and fro,
+as follows:</p>
+
+<p>1st to 3d rows.—3 plain, 3 purl,
+alternately to end of row.</p>
+
+<p>4th row.—* 3 purl, make 1,
+knit 3 together, plain, make 1.
+Repeat from *.</p>
+
+<p>Then repeat again from 1st row.</p>
+
+<figure class="figleft illowp40" id="i_029a" >
+  <img class="w100" src="images/i_029a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 39. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 39.—Cast on the required
+number of stitches, and knit in
+plain and purled rows as follows:</p>
+
+<p><span class="pagenum" id="Page_29">[29]</span></p>
+
+<p>1st row.—Slip 1 stitch, * knit 3 together,
+plain, make 1. Repeat
+from *.</p>
+
+<p>2d row.—Purl; but, in every new
+made stitch of last row, knit 1 purl, 1
+plain, 1 purl.</p>
+
+<p>3d row.—Knit plain.</p>
+
+<p>4th row.—Purl.</p>
+
+<p>Repeat the design from 1st row,
+but in such a way as to make the designs alternate, as in
+illustration No. 39.</p>
+
+<figure class="figright illowp60" id="i_029b" >
+  <img class="w100" src="images/i_029b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 40. Border.</span></figcaption>
+</figure>
+
+<p>No. 40.—Cast on (as described in No. 5) a number of
+stitches divisible by 10. Purl 2 rounds, knit 1 round plain.
+Begin the design as follows:</p>
+
+<p>1st round.—* 1 plain, make 1, 1 slip stitch, 1 plain, draw
+the slipped stitch over the 1 plain, 5 purl, knit 2 together,
+plain, make 1. Repeat from *.</p>
+
+<p>2d round.—* 3 plain, 5 purl, 2 plain. Repeat from *.</p>
+
+<p>3d round.—* 1 plain, make 1, 1 plain, slip 1, 1 plain, draw
+slipped stitch over one plain, 3 purl, 2 together, plain, 1 plain,
+make 1, repeat from *.</p>
+
+<p>4th round.—* 4 plain,
+<ins class="corr" title="Transcriber's Note&mdash;original unclear" id="unclear">3</ins>
+ purl, 3 plain. Repeat
+from *.</p>
+
+<p>5th round.—* 1 plain,
+make 1, 2 plain, slip 1, 1
+plain, draw the slipped
+stitch over the 1 plain, 1
+purl, 2 together, plain, 2
+plain, make 1. Repeat
+from *.</p>
+
+<p>6th round.—* 5 plain,
+1 purl, 4 plain. Repeat
+from *.</p>
+
+<p>7th round.—* 1 plain, make 1, 3 plain, slip 1, 2 together,
+plain, draw the slipped stitch over the 2 together, plain, 3
+plain, make 1. Repeat from *.</p>
+
+<p>8th round.—Knit plain.</p>
+
+<p>9th round.—* 3 purl, 2 together, plain, make 1, 1 plain,<span class="pagenum" id="Page_30">[30]</span>
+make 1, slip 1, 1 plain, draw the slipped stitch over the 1
+plain, 2 purl. Repeat from *.</p>
+
+<p>10th round.—* 3 purl, 5 plain, 2 purl. Repeat from *.</p>
+
+<p>11th round.—* 2 purl, 2 together, plain, 1 plain, make 1,
+1 plain, make 1, 1 plain, slip 1, 1 plain, draw the slipped stitch
+over the 1 plain, 1 purl. Repeat from *.</p>
+
+<p>12th round.—* 2 purl, 7 plain, 1 purl. Repeat from *.</p>
+
+<p>13th round.—* 1 purl, 2 together, plain, 2 plain, make 1,
+1 plain, make 1, 2 plain, slip 1, 1 plain, draw the slipped stitch
+over the 1 plain. Repeat from *.</p>
+
+<p>14th round.—* 1 purl, 9 plain. Repeat from *.</p>
+
+<p>15th round.—Knit 2 together, plain, * 3 plain, make 1, 1
+plain, make 1, 3 plain, slip 1, 2 together, plain, draw the
+slipped stitch over the 2 together, plain. Repeat from *. At
+the end of the round draw the last stitch over the first stitch.</p>
+
+<p>16th round.—Knit plain.</p>
+
+<figure class="figright illowp40" id="i_030" >
+  <img class="w100" src="images/i_030.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 41. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 41.—Cast on a number of
+stitches divisible by 8 and knit in
+rows, to and fro, as follows:</p>
+
+<p>1st row.—* Make 1, purl 2 together,
+3 purl, purl 2 together, make
+1, 1 purl. Repeat from *.</p>
+
+<p>2d row.—Make 1, 2 plain, * make
+1, slip 1, 1 plain, draw the slipped
+stitch over the 1 plain, 1 plain, knit
+2 together, plain, make 1, 3 plain.
+Repeat from *. Make only 1 plain instead of 3 plain at the
+end of row.</p>
+
+<p>3d row.—2 purl, * make 1, purl 3 together, make 1, 5 purl.
+Repeat from *. Purl only 4 instead of 5 at the end of row.</p>
+
+<p>4th row.—* 3 plain, knit 2 together, plain, make 1, 1
+plain, make 1, knit 2 together, plain. Repeat from *. Make
+1 plain after knitting the 2 together, plain, at the end of row.</p>
+
+<p>5th row.—2 purl, * make 1, 3 purl, make 1, purl 2 together,
+1 purl, purl 2 together. Repeat from *. At the end of row
+purl only 1 instead of purling the last 2 stitches together.</p>
+
+<p>6th row.—* Slip 1, knit 2 together, plain, draw the slipped
+stitch over the 2 together, plain, make 1, 5 plain, make 1.
+Repeat from *. After the last make 1, knit 2 together, plain,
+at the end of row.</p>
+
+<p><span class="pagenum" id="Page_31">[31]</span></p>
+
+<p>7th row.—* 1 purl, make 1, purl 2 together, 3 purl, purl
+2 together, make 1. Repeat from *. After the last make 1 at
+the end of row make 1 purl.</p>
+
+<p>8th row.—2 plain, * make 1, slip 1, 1 plain, draw the
+slipped stitch over the 1 plain, 1 plain, knit 2 together, plain,
+make 1, 3 plain. Repeat from *. Knit only 2 plain instead
+of 3 plain at the end of the row.</p>
+
+
+<h3><span class="smcap">Squares for Bed Spread.</span></h3>
+
+<figure class="figleft illowp60" id="i_031" >
+  <img class="w100" src="images/i_031.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 42. Square for Bed Spread.</span></figcaption>
+</figure>
+
+<p>Nos. 42 and 43.—Cut No. 43 illustrates four of square No.
+42 put together. No. 42 is worked with fine or coarse cotton
+in rounds.</p>
+
+<p>Cast on 4 needles 8
+stitches, and knit
+with help of a fifth
+needle as follows:</p>
+
+<p>1st round.—Purl.</p>
+
+<p>2d round.—* Make
+1, 1 plain, make 1, 1
+plain. Repeat from *
+to end of round.</p>
+
+<p>3d round.—Purl.</p>
+
+<p>4th round.—* Make
+1. Knit in the next
+stitch 1 plain, 1 purl.
+Make 1, 3 plain. Repeat
+from *.</p>
+
+<p>5th round.—* 1
+plain, 2 purl, 1 plain, 3 purl. Repeat from *.</p>
+
+<p>6th round.—* Make 1, 1 plain, 2 purl, 1 plain, make 1, 3
+plain. Repeat from *.</p>
+
+<p>7th round.—* 2 plain, 2 purl, 2 plain, 3 purl. Repeat
+from *.</p>
+
+<p>8th round.—* Make 1, 2 plain, 2 purl, 2 plain, make 1, 3
+plain. Repeat from *.</p>
+
+<p>9th round.—* 1 purl, 2 plain, 2 purl, 2 plain, 4 purl.
+Repeat from *.</p>
+
+<p>10th round.—* Make 1, 1 purl, 2 plain, 2 purl, 2 plain, 1
+purl, make 1, 3 plain. Repeat from *.</p>
+
+<p><span class="pagenum" id="Page_32">[32]</span></p>
+
+<p>11th round.—* 2 purl, 2 plain, 2 purl, 2 plain, 5 purl.
+Repeat from *.</p>
+
+<figure class="figleft illowp60" id="i_032" >
+  <img class="w100" src="images/i_032.jpg" alt="">
+  <figcaption class="caption">No. 43. <span class="smcap">Square for Bed Spread.</span>
+<br>To go with No. 42.</figcaption>
+</figure>
+
+<p>Work 16 more
+rounds in same manner
+as described in 2
+last rounds, until, in
+the 27th round, there
+will be 29 stitches on
+each needle.</p>
+
+<p>28th round.—* Alternate
+13 times:
+Make 1, knit 2 together,
+plain. Then
+make 1, 3 plain. Repeat
+from *.</p>
+
+<p>29th round.—Purl.</p>
+
+<p>Then cast off the
+stitches. Join the
+squares as illustrated
+in cut No. 43.</p>
+
+<figure class="figcenter illowp90" id="i_033" >
+  <img class="w100" src="images/i_033.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 44. Square for Bed Spread.</span></figcaption>
+</figure>
+
+<p>No. 44—<i>Square for Bed Spread</i>.—This square is knitted
+with white cotton, on 2 steel knitting needles, in rows, to and
+fro. Begin to knit at the corner of the square (see lowest
+corner in illustration 44). Cast on 3 stitches.</p>
+
+<p>1st row.—Slip 1. Knit in next stitch 1 purl, 1 plain.
+Purl 1.</p>
+
+<p>2d row.—Slip 1, 1 plain. Knit in next stitch 1 purl and
+1 plain. 1 plain.</p>
+
+<p>3d row.—Slip 1, purl 2. Knit in next stitch 1 purl and 1
+plain. Purl 1.</p>
+
+<p>4th row.—Slip 1, 2 plain, make 1, 3 plain.</p>
+
+<p>5th row.—Slip 1, 2 purl, 1 plain. 3 purl.</p>
+
+<p>6th row.—Slip 1, 2 plain, make 1, 1 purl, make 1, 3 plain.</p>
+
+<p>7th row.—Slip 1, 2 purl, 3 plain, 3 purl.</p>
+
+<p>8th row.—Slip 1, 2 plain, make 1, 3 purl, make 1, 3 plain.</p>
+
+<p>9th row.—Slip 1, 2 purl, 5 plain, 3 purl.</p>
+
+<p>10th row.—Slip 1, 2 plain, make 1, 5 purl, make 1, 3 plain.</p>
+
+<p>11th row.—Slip 1, 2 purl, 7 plain, 3 purl.</p>
+
+<p>12th row.—Slip 1, 2 plain, make 1, 7 purl, make 1, 3 plain.</p>
+
+<p>13th row.—Slip 1, 2 purl, 4 plain, 1 purl, 4 plain, 3 purl.</p>
+
+<p><span class="pagenum" id="Page_33">[33]</span></p>
+
+<p>14th row.—Slip 1, 2 plain, make 1, 4 purl, 1 plain, 4 purl,
+make 1, 3 plain.</p>
+
+<p>15th row.—Slip 1, 2 purl, 4 plain, 3 purl, 4 plain, 3 purl.</p>
+
+<p>16th row.—Slip 1, 2 plain, make 1, 4 purl, 3 plain, 4 purl,
+make 1, 3 plain.</p>
+
+<p>17th row.—Slip 1, 2 purl, 4 plain, 5 purl, 4 plain, 3 purl.</p>
+
+<p>18th row.—Slip 1, 2 plain, make 1, 4 purl, 5 plain, 4 purl,
+make 1, 3 plain.</p>
+
+<p>19th row.—Slip 1, 2 purl, 4 plain, 3 purl, make 1, 1 plain,
+make 1, 3 purl, 4 plain, 3 purl.</p>
+
+<p><span class="pagenum" id="Page_34">[34]</span></p>
+
+<p>20th row.—Slip 1, 2 plain, make 1, 4 purl, 3 plain, 3 purl,
+3 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>21st row.—Slip 1, 2 purl, 4 plain, 4 purl, make 1, 3 plain,
+make 1, 4 purl, 4 plain, 3 purl.</p>
+
+<p>22d row.—Slip 1, 2 plain, make 1, 4 purl, 4 plain, 5 purl,
+4 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>23d row.—Slip 1, 2 purl, 4 plain, 5 purl, make 1, 5 plain,
+make 1, 5 purl, 4 plain, 3 purl.</p>
+
+<p>24th row.—Slip 1, 2 plain, make 1, 4 purl, 5 plain, 7 purl,
+5 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>25th row.—Slip 1, 2 purl, 4 plain, 6 purl, 2 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+2 plain, 6 purl, 4 plain, 3 purl.</p>
+
+<p>26th row.—Slip 1, 2 plain, make 1, 4 purl, 6 plain, 5 purl,
+6 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>27th row.—Slip 1, 2 purl, 4 plain, 7 purl, 1 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+1 plain, 7 purl, 4 plain, 3 purl.</p>
+
+<p>28th row.—Slip 1, 2 plain, make 1, 4 purl, 7 plain, 3 purl,
+7 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>29th row.—Slip 1, 2 purl, 4 plain, 3 purl, make 1, 1 plain,
+make 1, 4 purl, slip 1, knit 2 together plain, and draw the
+slipped stitch over them, 4 purl, make 1, 1 plain, make 1, 3
+purl, 4 plain, 3 purl.</p>
+
+<p>30th row.—Slip 1, 2 plain, make 1, 4 purl, 3 plain, 3 purl,
+9 plain, 3 purl, 3 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>31st row.—Slip 1, 2 purl, 4 plain, 4 purl, make 1, 3 plain,
+make 1, 9 purl, make 1, 3 plain, make 1, 4 purl, 4 plain, 3
+purl.</p>
+
+<p>32d row.—Slip 1, 2 plain, make 1, 4 purl, 4 plain, 5 purl,
+9 plain, 5 purl, 4 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>33d row.—Slip 1, 2 purl, 4 plain, 5 purl, make 1, 5 plain,
+make 1, 9 purl, make 1, 5 plain, make 1, 5 purl, 4 plain, 3 purl.</p>
+
+<p>34th row.—Slip 1, 2 plain, make 1, 4 purl, 5 plain, 7 purl,
+9 plain, 7 purl, 5 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>35th row.—Slip 1, 2 purl, 4 plain, 6 purl, 2 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+2 plain, 9 purl, 2 plain, slip 1, knit 2 together plain, and
+draw the slipped stitch over them, 2 plain, 6 purl, 4 plain, 3
+purl.</p>
+
+<p><span class="pagenum" id="Page_35">[35]</span></p>
+
+<p>36th row.—Slip 1, 2 plain, make 1, 4 purl, 6 plain, 5 purl,
+9 plain, 5 purl, 6 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>37th row.—Slip 1, 2 purl, 4 plain, 7 purl, 1 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+1 plain, 9 purl, 1 plain, slip 1, knit 2 together plain, and draw
+the slipped stitch over them, 1 plain, 7 purl, 4 plain, 3 purl.</p>
+
+<p>38th row.—Slip 1, 2 plain, make 1, 4 purl, 7 plain, 3 purl,
+4 plain, make 1, knit 2 together plain, 3 plain, 3 purl, 7 plain,
+4 purl, make 1, 3 plain.</p>
+
+<p>39th row.—Slip 1, 2 purl, 4 plain, 3 purl, make 1, 1 plain,
+make 1, 4 purl, slip 1, knit 2 together plain, and draw the
+slipped stitch over them, 9 purl, slip 1, knit 2 together plain,
+and draw the slipped stitch over them, 4 purl, make 1, 1 plain,
+make 1, 3 purl, 4 plain, 3 purl.</p>
+
+<p>40th row.—Slip 1, 2 plain, make 1, 4 purl, 3 plain, 3 purl,
+8 plain, make 1, knit 2 together plain, 1 plain, make 1, 8
+plain, 3 purl, 3 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>41st row.—Slip 1, 2 purl, 4 plain, 4 purl, make 1, 3 plain,
+make 1, 20 purl, make 1, 3 plain, make 1, 4 purl, 4 plain, 3 purl.</p>
+
+<p>42d row.—Slip 1, 2 plain, make 1, 4 purl, 4 plain, 5 purl,
+7 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 1 plain, make 1, 7 plain, 5 purl, 4 plain, 4
+purl, make 1, 3 plain.</p>
+
+<p>43d row.—Slip 1, 2 purl, 4 plain, 5 purl, make 1, 5 plain,
+make 1, 21 purl, make 1, 5 plain, make 1, 5 purl, 4 plain, 3
+purl.</p>
+
+<p>44th row.—Slip 1, 2 plain, make 1, 4 purl, 5 plain, 7 purl,
+6 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 1 plain, make 1, knit 2 together plain, 1
+plain, make 1, 6 plain, 7 purl, 5 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>45th row.—Slip 1, 2 purl, 4 plain, 6 purl, 2 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+2 plain, 22 purl, 2 plain, slip 1, knit 2 together plain, and
+draw the slipped stitch over them, 2 plain, 6 purl, 4 plain, 3
+purl.</p>
+
+<p>46th row.—Slip 1, 2 plain, make 1, 4 purl, 6 plain, 5 purl,
+5 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 2 plain, knit 2 together plain, make 1, 1
+plain, knit 2 together plain, make 1, 5 plain, 5 purl, 6 plain,
+4 purl, make 1, 3 plain.</p>
+
+<p><span class="pagenum" id="Page_36">[36]</span></p>
+
+<p>47th row.—Slip 1, 2 purl, 4 plain, 7 purl, 1 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+1 plain, 22 purl, 1 plain, slip 1, knit 2 together plain, and
+draw the slipped stitch over them, 1 plain, 7 purl, 4 plain, 3
+purl.</p>
+
+<p>48th row.—Slip 1, 2 plain, make 1, 4 purl, 7 plain, 3 purl,
+4 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 4 plain, knit 2 together plain, make 1, 1
+plain, knit 2 together plain, make 1, 4 plain, 3 purl, 7 plain,
+4 purl, make 1, 3 plain.</p>
+
+<p>49th row.—Slip 1, 2 purl, 4 plain, 3 purl, make 1, 1 plain,
+make 1, 4 purl, slip 1, knit 2 together plain, and draw the
+slipped stitch over them, 10 purl, make 1, knit 2 together
+plain, make 1, 10 purl, slip 1, knit 2 together plain, and draw
+the slipped stitch over them, 4 purl, make 1, 1 plain, make 1,
+3 purl, 4 plain, 3 purl.</p>
+
+<p>50th row.—Slip 1, 2 plain, make 1, 4 purl, 3 plain, 3 purl,
+8 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 2 plain, 3 purl, 2 plain, knit 2 together
+plain, make 1, 1 plain, knit 2 together plain, make 1, 8 plain,
+3 purl, 3 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>51st row.—Slip 1, 2 purl, 4 plain, 4 purl, make 1, 3 plain,
+make 1, 15 purl, make 1, 3 plain, make 1, 15 purl, make 1, 3
+plain, make 1, 4 purl, 4 plain, 3 purl.</p>
+
+<p>52d row.—Slip 1, 2 plain, make 1, 4 purl, 4 plain, 5 purl,
+7 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 3 plain, 5 purl, 3 plain, knit 2 together
+plain, make 1, 1 plain, knit 2 together plain, make 1, 7 plain,
+5 purl, 4 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>53d row.—Slip 1, 2 purl, 4 plain, 5 purl, make 1, 5 plain,
+make 1, 15 purl, make 1, 5 plain, make 1, 15 purl, make 1, 5
+plain, make 1, 5 purl, 4 plain, 3 purl.</p>
+
+<p>54th row.—Slip 1, 2 plain, make 1, 4 purl, 5 plain, 7 purl,
+6 plain, make 1, knit 2 together plain, 1 plain, make 1, knit
+2 together plain, 4 plain, 7 purl, 4 plain, knit 2 together plain,
+make 1, 1 plain, knit 2 together plain, make 1, 6 plain, 7 purl,
+5 plain, 4 purl, make 1, 3 plain.</p>
+
+<p>55th row.—Slip 1, 2 purl, 4 plain, 6 purl, 2 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+2 plain, 15 purl, 2 plain, slip 1, knit 2 together plain, and<span class="pagenum" id="Page_37">[37]</span>
+draw the slipped stitch over them, 2 plain, 15 purl, 2 plain,
+slip 1, knit 2 together plain, and draw the slipped stitch over
+them, 2 plain, 6 purl, 4 plain, 3 purl. This last row forms the
+center of the square. The other half of the square begins with
+row 56, and is made as follows:</p>
+
+<p>56th row.—Slip 1, 1 plain, knit 2 together plain, make 1,
+3 purl, purl 2 together, 4 plain, 5 purl, 8 plain, make 1, knit 2
+together plain, 1 plain, make 1, 4 plain, 5 purl, 4 plain, make 1,
+1 plain, knit 2 together plain, make 1, 8 plain, 5 purl, 4 plain,
+purl 2 together, 3 purl, make 1, knit 2 together plain, 2 plain.</p>
+
+<p>57th row.—Slip 1, 2 purl, 5 plain, 4 purl, 1 plain, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+1 plain, 10 purl, 1 plain, slip 1, knit 2 together plain, and
+draw the slipped stitch over them, 1 plain, 16 purl, 1 plain,
+slip 1, knit 2 together plain, and draw the slipped stitch over
+them, 1 plain, 4 purl, 5 plain, 3 purl.</p>
+
+<p>58th row.—Slip 1, 1 plain, knit 2 together plain, make 1,
+3 purl, purl 2 together, 3 plain, 3 purl, 10 plain, make 1, knit
+2 together plain, 1 plain, make 1, 3 plain, 3 purl, 3 plain,
+make 1, 1 plain, knit 2 together plain, make 1, 10 plain, 3
+purl, 3 plain, purl 2 together, 3 purl, make 1, knit 2 together
+plain, 2 plain.</p>
+
+<p>59th row.—Slip 1, 2 purl, 5 plain, 3 purl, slip 1, knit 2
+together plain, and draw the slipped stitch over them, 4
+purl, make 1, 1 plain, make 1, 12 purl, slip 1, knit 2 together
+plain, and draw the slipped stitch over them, 12 purl, make
+1, 1 plain, make 1, 4 purl, slip 1, knit 2 together plain, and
+draw the slipped stitch over them, 3 purl, 5 plain, 3 purl.</p>
+
+<p>60th row.—Slip 1, 1 plain, knit 2 together plain, make 1,
+3 purl, purl 2 together, 7 plain, 3 purl, 7 plain, make 1, knit
+2 together plain, 1 plain, make 1, 5 plain, make 1, 1 plain,
+knit 2 together plain, make 1, 7 plain, 3 purl, 7 plain, purl 2
+together, 3 purl, make 1, knit 2 together plain, 2 plain.</p>
+
+<p>By following the directions already given and by noticing
+the illustration, it will be easy to finish the square. But, at
+the beginning and end of rows designated by even numbers,
+the knitting must be as at the beginning and end of the 56th,
+58th and 60th rows; upon the other hand, the beginning and
+end of the rows designated by odd numbers are worked as
+the beginning and end of rows 57 and 59.</p>
+
+<p><span class="pagenum" id="Page_38">[38]</span></p>
+
+
+<h3><span class="smcap">Fancy Patterns for Knitting.</span></h3>
+
+<figure class="figleft illowp55" id="i_038a" >
+  <img class="w100" src="images/i_038a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 45. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 45—<i>Fancy Pattern</i>.—The number of stitches to be
+cast on must be determined by the width of the work, and
+must also be divisible by 10.
+Knit in rows, to and fro, as
+follows:</p>
+
+<p>1st row.—Knit plain.</p>
+
+<p>2d row.—* 1 plain, make 2,
+narrow by slipping 1 stitch,
+knitting 1 plain, and drawing
+the slipped stitch over the 1
+knitted. 5 plain, knit 2 together
+plain, make 2. Repeat
+from *.</p>
+
+<p>3d row.—1 purl, * make 2, purl 2 together, 3 purl, purl 2
+together, make 2, 3 purl. Repeat from *.</p>
+
+<p>4th row.—3 plain, * make 2, narrow, 1 plain, knit 2 together
+plain, make 2, 5 plain. Repeat from *.</p>
+
+<p>5th row.—3 purl, * make 2, purl 3 together, make 2, 7
+purl. Repeat from *.</p>
+
+<p>6th row.—3 plain, * knit 2 together plain, make 2, 1 plain,
+make 2, narrow, 5 plain. Repeat from *.</p>
+
+<p>Repeat from 3d to 5th rows, inclusive. Then from 2d row
+to 6th row, inclusive, etc.</p>
+
+<figure class="figright illowp50" id="i_038b" >
+  <img class="w100" src="images/i_038b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 46. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 46—<i>Fancy Design</i>.—Cast on the required number
+of stitches.</p>
+
+<p>1st row.—Slip 1, * knit 2 together in twist stitch, knit 2
+together plain, make 2. Repeat from *.</p>
+
+<p>Purl the 2d row, but knit plain the first of every two
+newly-made stitches of last row.</p>
+
+<p>3d row.—Slip 1, 1 plain, *
+make 2, knit 2 together in twist
+stitch, knit 2 together plain.
+Repeat from * to end of row.</p>
+
+<p>4th row.—Purl, but knit
+plain the first of every two newly
+made stitches of last row.</p>
+
+<p>Then repeat again from 1st
+row.</p>
+<p><span class="pagenum" id="Page_39">[39]</span></p>
+<figure class="figleft illowp50" id="i_039a" >
+  <img class="w100" src="images/i_039a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 47. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 47—<i>Fancy Design</i>.—Cast
+on the number of stitches
+required for the length of the
+work.</p>
+
+<p>1st row.—Slip 1. Then alternate
+to end of row. Make 1,
+knit 2 together plain.</p>
+
+<p>2d row.—Purl.</p>
+
+<p>Repeat from 1st row.</p>
+
+<figure class="figright illowp40" id="i_039b" >
+  <img class="w100" src="images/i_039b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 48. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 48.—To knit this fancy
+design, cast on a number of stitches divisible by 9, and knit
+in rows to and fro as follows:</p>
+
+<p>1st row.—* 2 plain, knit 2 together plain. Narrow by slipping
+1 stitch, knitting plain the next stitch, and drawing the
+slipped stitch over the 1 plain. 2 plain, make 1, 1 plain, make
+1. Repeat from *.</p>
+
+<p>2d row.—Purl.</p>
+
+<p>3d row.—1 plain, * knit 2 together plain, narrow, 2 plain,
+make 1, 1 plain, make 1, 2 plain. Repeat from *.</p>
+
+<p>4th row.—Purl.</p>
+
+<p>5th row.—* Knit 2 together plain, narrow, 1 plain, make
+1, 2 plain. Make in the next stitch 1 plain, 1 purl. Make 1,
+1 plain. Repeat from *.</p>
+
+<p>6th row.—Purl.</p>
+
+<p>7th row.—1 plain, * narrow, make 1, 6 plain, make 1, knit
+2 together plain. Repeat from *.</p>
+
+<p>8th row.—Purl.</p>
+
+<p>9th row.—* Narrow, make 1, 2 plain, knit 2 together
+plain, narrow, 2 plain, make 1. Repeat
+from *.</p>
+
+<p>10th row.—Purl.</p>
+
+<p>11th row.—1 plain, * make 1, 2
+plain, knit 2 together, narrow, 2
+plain, make 1, 1 plain. Repeat
+from *.</p>
+
+<p>12th row.—Purl.</p>
+
+<p>13th row.—2 plain, * make 1, 1
+plain, knit 2 together plain, narrow,
+1 plain, make 1, 2 plain. Make in the next stitch 1 plain, 1
+purl. Repeat from *.</p>
+<p><span class="pagenum" id="Page_40">[40]</span></p>
+<p>14th row.—Purl.</p>
+
+<p>15th row.—3 plain, * make 1, knit 2 together plain, narrow,
+make 1, 6 plain. Repeat from *.</p>
+
+<p>16th row.—Purl.</p>
+
+<p>17th row.—* Narrow, 2 plain, make 1, narrow, make 1, 2
+plain, knit 2 together plain. Repeat from *.</p>
+
+<p>With the help of these directions it is now easy to continue
+the design.</p>
+
+<figure class="figleft illowp30" id="i_040" >
+  <img class="w100" src="images/i_040.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 49. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 49—<i>Fancy Design</i>.—Cast on the required number of
+stitches for the length of the work. Knit in
+rows to and fro, in the following manner:</p>
+
+<p>1st row.—Purl.</p>
+
+<p>2d row.—Slip 1. Then alternate to end
+of row: 2 plain, make 2.</p>
+
+<p>3d row.—Slip 1, * purl 2 together, viz.:
+the next stitch and the newly-made stitch
+of last row. Purl 2 together, viz.: the
+newly made stitch of last row and the
+stitch following it. Repeat from *. Purl
+the last 2 stitches at the end of row.</p>
+
+<p>4th row.—Slip 1, 1 plain, * make 2, 2 plain. Repeat from
+* to end of row.</p>
+
+<p>5th row.—Purl 2, * purl 2 together, viz.: the next stitch
+and the newly-made stitch of last row. Purl 2 together, viz.:
+the newly-made stitch of last row and the stitch following it.
+Repeat from *. Purl the last stitch of the row.</p>
+
+<p>Repeat from 2d row to 5th row, inclusive.</p>
+
+
+<h3><span class="smcap">Lace Edgings.</span></h3>
+
+<figure class="figcenter illowp65" id="i_041a" >
+  <img class="w100" src="images/i_041a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 50. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 50—<i>Lace Edging</i>.—Cast on 7 stitches, and knit in
+rows, as follows:</p>
+
+<p>1st row.—Knit plain.</p>
+
+<p>2d row.—Slip 1, knit 2 together plain, make 2, knit 2 together
+plain, in twist stitch, make 2, knit 2 together plain, in
+twist stitch.</p>
+
+<p>3d row.—Slip 1, 1 plain, 1 purl, 2 plain, 1 purl, 2 plain.</p>
+
+<p>4th row.—Slip 1, knit 2 together plain, make 2, knit 2 together
+plain, in twist stitch, 1 plain, make 2, knit 2 together
+plain, in twist stitch.</p>
+
+<p>5th row.—Slip 1, 1 plain, 1 purl, 3 plain, 1 purl, 2 plain</p>
+
+<p><span class="pagenum" id="Page_41">[41]</span></p>
+
+<p>6th row.—Slip 1, knit 2 together plain, make 2, knit 2
+together plain, in twist stitch, 2 plain, make 2, knit 2 together
+plain, in twist stitch.</p>
+
+<p>7th row.—Slip 1, 1 plain, 1 purl, 4 plain, 1 purl, 2 plain.</p>
+
+<p>8th row.—Slip 1, knit 2 together plain, make 2, knit 2
+together plain, in twist stitch, 3 plain, make 2, knit 2 together
+plain, in twist stitch.</p>
+
+<p>9th row.—Slip 1, 1 plain, 1 purl, 5 plain, 1 purl, 2 plain.</p>
+
+<p>10th row.—Slip 1, knit 2 together plain, make 2, knit 2
+together plain, in twist stitch, 1 plain, make 4, knit 2 together
+plain, 1 plain, make 2, knit 2 together plain, in twist stitch.</p>
+
+<p>11th row.—Slip 1, 1 plain, 1 purl, 3 plain, 1 purl, 1 plain,
+1 purl, 3 plain, 1 purl, 2 plain.</p>
+
+<p>12th row.—Slip 1, knit 2 together plain, make 2, knit 2
+together plain, in twist stitch, 10 plain.</p>
+
+<p>13th row.—Slip 1, cast off 8 stitches, 3 plain, 1 purl, 2
+plain.</p>
+
+<p>Repeat from 2d to 13th rows, inclusive, until the required
+length of edging is reached.</p>
+
+<figure class="figcenter illowp60" id="i_041b" >
+  <img class="w100" src="images/i_041b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 51. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 51—<i>Lace Edging</i>.—Cast on 8 stitches. Knit 1 row
+plain.</p>
+
+<p>1st row.—Slip 1, 2 plain, make 1, knit 2 together plain,
+in twist stitch, 1 plain, make 4, knit 2 together plain.</p>
+
+<p>2d row.—Slip 1. Work in the 4 newly-made stitches of<span class="pagenum" id="Page_42">[42]</span>
+last row 1 plain, 1 purl, 1 plain, 1 purl, 1 plain, 1 purl. Then
+knit 3 plain, make 1, knit 2 together plain, 1 plain, in twist stitch.</p>
+
+<p>3d row.—Slip 1, 2 plain, make 1, knit 2 together plain,
+in twist stitch, 8 plain.</p>
+
+<p>4th row.—Slip 1, 9 plain, make 1, knit 2 together plain,
+in twist stitch, 1 plain.</p>
+
+<p>5th row.—Slip 1, 2 plain, make 1, knit 2 together plain,
+in twist stitch. Alternate 4 times: make 2, knit 2 together plain.</p>
+
+<p>6th row.—Slip 1, 1 plain, 1 purl. Alternate 3 times: 2
+plain, 1 purl. Then 2 plain, make 1, knit 2 together plain,
+in twist stitch, 1 plain.</p>
+
+<p>7th row.—Slip 1, 2 plain, make 1, knit 2 together plain,
+in twist stitch, 12 plain.</p>
+
+<p>8th row.—Slip 1, 13 plain, make 1, knit 2 together plain,
+in twist stitch, 1 plain.</p>
+
+<p>9th row.—Knit like 7th row.</p>
+
+<p>10th row.—Knit like 8th row.</p>
+
+<p>11th row.—Knit like 7th row.</p>
+
+<p>12th row.—Cast off 9 stitches. Knit 4 plain, make 1,
+knit 2 together plain, in twist stitch, 1 plain.</p>
+
+<p>The design is repeated from 1st to 12th rows until the
+desired length of the edging is reached.</p>
+
+<figure class="figleft illowp60" id="i_042" >
+  <img class="w100" src="images/i_042.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 52. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 52—<i>Lace Edging</i>.—Cast
+on 19 stitches and
+knit in rows as follows:</p>
+
+<p>1st row.—9 plain, *
+purl 2 together, make 1,
+1 plain. Repeat twice
+from *. Make 1, 1 plain.</p>
+
+<p>2d row.—Make 1, narrow,
+viz.: Slip 1, 1 plain,
+draw the slipped stitch
+over 1 plain. Knit plain
+to end of row.</p>
+
+<p>3d row.—8 plain.
+Work 3 times as follows:
+Purl 2 together,
+make 1, 1 plain. Then
+make 1, 1 plain, make 1,
+narrow.</p>
+
+<p>4th row.—Alternate twice: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p><span class="pagenum" id="Page_43">[43]</span></p>
+
+<p>5th row.—7 plain. Work 3 times as follows: Purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate
+twice: make 1, narrow.</p>
+
+<p>6th row.—Alternate 3 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>7th row.—6 plain. Work 3 times as follows: purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate 3
+times: make 1, narrow.</p>
+
+<p>8th row.—Alternate 4 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>9th row.—5 plain. Work 3 times as follows: Purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate 4
+times: make 1, narrow.</p>
+
+<p>10th row.—Alternate 5 times: make 1, narrow. Knit
+plain to end of row.</p>
+
+<p>11th row.—4 plain. Work 3 times as follows: Purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate 5
+times: make 1, narrow.</p>
+
+<p>12th row.—Alternate 6 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>13th row.—3 plain. Work 3 times as follows: Purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate 6
+times: make 1, narrow.</p>
+
+<p>14th row.—Alternate 7 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>15th row.—2 plain. Work 3 times as follows: Purl 2 together,
+make 1, 1 plain. Then make 1, 1 plain. Alternate 7
+times: make 1, narrow.</p>
+
+<p>16th row.—Alternate 8 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>17th row.—4 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, knit 3 together plain,
+narrow. Alternate 6 times: make 1, narrow.</p>
+
+<p>18th row.—Alternate 7 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>19th row.—5 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice. Alternate
+5 times: make 1, narrow.</p>
+
+<p>20th row.—Alternate 6 times: make 1, narrow. Knit
+plain to end of row.</p>
+
+<p><span class="pagenum" id="Page_44">[44]</span></p>
+
+<p>21st row.—6 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice. Alternate
+4 times: make 1, narrow.</p>
+
+<p>22d row.—Alternate 5 times: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>23d row.—7 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice. Alternate
+3 times: make 1, narrow.</p>
+
+<p>24th row.—Alternate 4 times: make 1, narrow. Knit
+plain to end of row.</p>
+
+<p>25th row.—8 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice. Alternate
+twice: make 1, narrow.</p>
+
+<p>26th row.—Alternate 3 times: make 1, narrow. Knit
+plain to end of row.</p>
+
+<p>27th row.—9 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice, make
+1, narrow.</p>
+
+<p>28th row.—Alternate twice: make 1, narrow. Knit plain
+to end of row.</p>
+
+<p>29th row.—10 plain. Work twice as follows: Make 1,
+purl 2 together, 1 plain. Then make 1, narrow twice.</p>
+
+<p>30th row.—Make 1, narrow. Knit plain to end of row.</p>
+
+<p>Repeat from 1st to 30th rows, inclusive, until the required
+length of the edging is reached.</p>
+
+<figure class="figleft illowp60" id="i_044" >
+  <img class="w100" src="images/i_044.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 53. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. <i>53—Lace Edging</i>.—Cast
+on 7 stitches.</p>
+
+<p>1st row.—Slip 1, 1 purl,
+5 plain.</p>
+
+<p>2d row.—Slip 1. Alternate
+twice: make 1, purl 2
+together. Then 2 plain.</p>
+
+<p>3d row.—Make 1, 2 purl, 5 plain.</p>
+
+<p>4th row.—Slip 1. Alternate twice: make 1, purl 2 together.
+Then 3 plain.</p>
+
+<p>5th row.—Make 1, 3 purl, 5 plain.</p>
+
+<p>6th row.—Slip 1. Alternate twice: make 1, purl 2 together.
+Then 4 plain.</p>
+
+<p>7th row.—Make 1, 4 purl, 5 plain.</p>
+
+<p>8th row.—Slip 1. Alternate twice: make 1, purl 2 together.<span class="pagenum" id="Page_45">[45]</span>
+Then 2 plain, make 1, knit 2 together plain, 1
+plain.</p>
+
+<p>9th row.—Slip 1, 4 purl, 5 plain.</p>
+
+<p>10th row.—Slip 1. Alternate twice: make 1, purl 2 together.
+Then 3 plain, knit 2 together plain.</p>
+
+<p>11th row.—Slip 1, 3 purl, 5 plain.</p>
+
+<p>12th row.—Slip 1. Alternate twice: make 1, purl 2 together.
+Then 2 plain, knit 2 together plain.</p>
+
+<p>13th row.—Slip 1, 2 purl, 5 plain.</p>
+
+<p>14th row.—Slip 1. Alternate twice: make 1, purl 2 together.
+Then 1 plain, knit 2 together, plain.</p>
+
+<p>Repeat the design from 1st to 14th rows, inclusive.</p>
+
+<figure class="figleft illowp60" id="i_045" >
+  <img class="w100" src="images/i_045.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 54. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 54—<i>Lace Edging</i>.—This pretty pattern is worked
+width-wise in rows
+as follows: Cast
+on 26 stitches.</p>
+
+<p>1st row.—Slip 1,
+purl 2 together,
+make 2, purl 2 together,
+19 purl,
+knit 2 together
+plain.</p>
+
+<p>2d row.—Knit
+plain; but purl the
+2d newly-made
+stitch of last row.</p>
+
+<p>3d row.—Slip 1,
+purl 2 together,
+make 2, purl 2 together,
+1 purl. Alternate
+9 times: make 1, purl 2 together. Then 1 plain.</p>
+
+<p>4th row.—Knit plain.</p>
+
+<p>5th row.—Slip 1, purl 2 together, make 2, purl 2 together,
+20 purl.</p>
+
+<p>6th row.—Make 1, knit plain.</p>
+
+<p>7th row.—Slip 1, purl 2 together, make 2, purl 2 together,
+1 plain, * purl 2 together, make 2, knit 2 together plain, 1
+plain. Repeat from * three times.</p>
+
+<p><span class="pagenum" id="Page_46">[46]</span></p>
+
+<p>8th row.—Make 1. Alternate 3 times: 3 purl, 2 plain.
+Then work 3 purl, 8 plain.</p>
+
+<p>9th to 24th rows.—Work alternately the 7th and 8th
+rows; but in each row designated by an odd number, increase
+the number of plain stitches that come before the * by one,
+and each row designated by an even number increase likewise
+by one the number of plain stitches at the end of that row.</p>
+
+<p>25th row.—Slip 1, purl 2 together, make 2, purl 2 together,
+8 plain, * purl 2 together, make 2, knit 2 together plain, 1
+plain. Repeat from * three times; yet, at the last repetition,
+knit 3 together plain instead of knitting the 1 plain.</p>
+
+<p>26th row.—Slip 1, 2 purl. Alternate 3 times: 2 plain, 3
+purl. Then 15 plain.</p>
+
+<p>27th to 40th rows.—Work alternately the 25th and 26th
+rows; but at the end of every row designated by an odd
+number knit 2 together plain instead of 3 together plain, and
+at the end of every row designated by an even number
+decrease by one the number of plain stitches. Always repeat
+from 1st to 40th rows, inclusive.</p>
+
+<figure class="figleft illowp50" id="i_046" >
+  <img class="w100" src="images/i_046.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 55. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 55—<i>Lace Edging</i>.—Cast on 16 stitches.</p>
+
+<p>1st row.—Slip 1, 6 plain. Increase 1, viz.: by knitting 1
+purl in the next stitch where the stitch following the
+“increase 1” must be knitted. 4 plain, increase 2, 5 plain.</p>
+
+<p>2d row.—Slip 1, 1 plain,
+make 1, narrow, viz.: purl
+2 together. Then make 1,
+2 plain, narrow, make 1,
+narrow, make 1, narrow,
+1 plain, make 1, narrow,
+make 1, narrow, make 1,
+narrow.</p>
+
+<p>3d row.—Slip 1, 7 plain,
+increase 1, 4 plain, increase
+1, 2 plain, increase
+1, 5 plain.</p>
+
+<p>4th row.—Slip 1, 2 plain, make 1, narrow, make 1, 4 plain,
+narrow, make 1, narrow, make 1, 3 plain, make 1, narrow,
+make 1, narrow, make 1, narrow.</p>
+
+<p>5th row.—Slip 1, 7 plain, increase 1, 1 plain, increase 1, 4
+plain, increase 1, 4 plain, increase 1, 6 plain.</p>
+
+<p><span class="pagenum" id="Page_47">[47]</span></p>
+
+<p>6th row.—Slip 1, 3 plain, make 1, narrow, make 1, 6 plain,
+narrow, make 1, narrow, make 1, 3 plain, increase 1, narrow,
+make 1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>7th row.—Slip 1, 5 plain, narrow, 6 plain, narrow, 3 plain,
+narrow, 7 plain.</p>
+
+<p>8th row.—Slip 1, 4 plain, make 1, narrow, make 1, 4 plain,
+narrow, make 1, narrow, make 1, 2 plain, narrow, make 1,
+narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>9th row.—Slip 1, 8 plain, increase 1, 3 plain, narrow, 1
+plain, narrow, 8 plain.</p>
+
+<p>10th row.—Slip 1, 5 plain, make 1, narrow, make 1, 2 plain,
+narrow, make 1, narrow, make 1, 2 plain, narrow, make 1,
+narrow, make 1, narrow.</p>
+
+<p>11th row.—Slip 1, 5 plain, knit 3 together, 3 plain, knit 3
+together, 9 plain.</p>
+
+<p>12th row.—Slip 1, 5 plain. Alternate 7 times: make 1,
+narrow.</p>
+
+<p>13th row.—Slip 1, 6 plain, increase 1, 4 plain, increase 2,
+9 plain.</p>
+
+<p>14th row.—Slip 1, 3 plain, narrow, make 1, narrow, make
+1, narrow, 2 plain, make 1, narrow, make 1, narrow, 1 plain,
+increase 1, make 1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>15th row.—Slip 1, 8 plain, increase 1, 4 plain, increase 1,
+2 plain, increase 1, 9 plain.</p>
+
+<p>16th row.—Slip 1, 4 plain, make 1, narrow, make 1, narrow,
+4 plain, make 1, narrow, make 1, narrow, 3 plain, make
+1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>17th row.—Slip 1, 6 plain, increase 1, 3 plain, increase 1,
+4 plain, increase 1, 4 plain, increase 1, 8 plain.</p>
+
+<p>18th row.—Slip 1, 2 plain, narrow, make 1, narrow, make
+1, narrow, 6 plain, make 1, narrow, make 1, narrow, 3 plain,
+narrow, make 1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>19th row.—Slip 1, 8 plain, narrow, 3 plain, narrow, 3 plain,
+narrow, 7 plain.</p>
+
+<p>20th row.—Slip 1, 1 plain, narrow, make 1, narrow, make
+1, narrow, 4 plain, make 1, narrow, make 1, narrow, 3 plain,
+make 1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>21st row.—Slip 1, 5 plain, narrow, 5 plain, narrow, 1 plain,
+narrow, 6 plain.</p>
+
+<p><span class="pagenum" id="Page_48">[48]</span></p>
+
+<p>22d row.—Slip 1, narrow, make 1, narrow, make 1, narrow,
+2 plain, make 1, narrow, make 1, narrow, 2 plain, make
+1, narrow, make 1, narrow, make 1, narrow.</p>
+
+<p>23d row.—Slip 1, 5 plain, knit 3 together, 3 plain, knit 3
+together, 5 plain.</p>
+
+<p>24th row.—Slip 1, 1 plain. Alternate 7 times: make 1,
+narrow.</p>
+
+<p>Repeat from 1st row until the required length of the
+edging is reached.</p>
+
+<p>The lower edge of this edging is finished off with crochet
+work. Make in every stitch of the edge 1 close chain stitch,
+3 chain stitches, 1 close chain stitch.</p>
+
+<p>The upper edge of the edging is also finished off with
+crochet work. Make 1 close chain stitch in every stitch of
+the edge. Make another row of close chain stitches, and a
+third row of double crochet.</p>
+
+<figure class="figcenter illowp60" id="i_048" >
+  <img class="w100" src="images/i_048.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 56. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 56—<i>Lace Edging</i>.—Cast on 20 stitches and knit in
+rows, to and fro, as follows:</p>
+
+<p>1st row.—14 plain, make 1, knit 3 together plain, make 1,
+narrow, 1 plain.</p>
+
+<p>2d row.—Knit plain.</p>
+
+<p>3d row.—12 plain, narrow, make 1, 3 plain, make 1, 2 plain.</p>
+
+<p>4th row.—Knit plain.</p>
+
+<p>5th row.—11 plain, narrow, make 1, narrow, make 1, 1
+twist stitch (knitted from the back), make 1, narrow, make 1,
+2 plain.</p>
+
+<p>6th row.—Knit plain.</p>
+
+<p><span class="pagenum" id="Page_49">[49]</span></p>
+
+<p>7th row.—10 plain, narrow, make 1, narrow, make 1, 3
+plain, make 1, narrow, make 1, 2 plain.</p>
+
+<p>8th row.—Knit plain.</p>
+
+<p>9th row.—9 plain, narrow, make 1, narrow, make 1, 5
+plain, make 1, narrow, make 1, 2 plain.</p>
+
+<p>10th row.—Knit plain.</p>
+
+<p>11th row.—8 plain, narrow, make 1, narrow, make 1, 7
+plain, make 1, narrow, make 1, 2 plain.</p>
+
+<p>12th row.—Knit plain.</p>
+
+<p>13th row.—7 plain, narrow, make 1, narrow, make 1, 9
+plain, make 1, narrow, make 1, 2 plain.</p>
+
+<p>14th row.—Knit plain.</p>
+
+<p>15th row.—6 plain, narrow, make 1, narrow, make 1, 11
+plain, make 1, narrow, make 1, 2 plain.</p>
+
+<p>16th row.—Knit plain.</p>
+
+<p>17th row.—5 plain, narrow, make 1, narrow, make 1, 3
+plain, knit 3 together plain, make 4, 3 together plain, 4 plain,
+make 1, narrow, make 1, 2 plain.</p>
+
+<p>18th row.—Knit this row plain; but in the “make 4” of
+last row, knit 1 plain, 1 purl, 1 plain, 1 purl.</p>
+
+<p>19th row.—7 plain, make 1, narrow, make 1, narrow, 9
+plain, narrow, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>20th row.—Knit plain.</p>
+
+<p>21st row.—8 plain, make 1, narrow, make 1, narrow, 7
+plain, narrow, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>22d row.—Knit plain.</p>
+
+<p>23d row.—9 plain, make 1, narrow, make 1, narrow, 5
+plain, narrow, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>24th row.—Knit plain.</p>
+
+<p>25th row.—10 plain, make 1, narrow, make 1, narrow, 3
+plain, narrow, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>26th row.—Knit plain.</p>
+
+<p>27th row.—11 plain, make 1, narrow, make 1, narrow, 1
+plain, narrow, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>28th row.—Knit plain.</p>
+
+<p>29th row.—12 plain, make 1, narrow, make 1, knit 3 together
+plain, make 1, narrow, make 1, narrow, 1 plain.</p>
+
+<p>30th row.—Knit plain.</p>
+
+<p>31st row.—13 plain, make 1, narrow, 1 plain, narrow,
+make 1, narrow, 1 plain.</p>
+
+<p><span class="pagenum" id="Page_50">[50]</span></p>
+
+<p>32d row.—Knit plain.</p>
+
+<p>Repeat from 1st to 32d rows, inclusive.</p>
+
+<figure class="figcenter illowp65" id="i_050" >
+  <img class="w100" src="images/i_050.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 57. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 57—<i>Lace Edging</i>.—Cast on 18 stitches.</p>
+
+<p>1st row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain, and draw the slipped stitch over them,
+make 2, knit 2 together plain, 2 plain, make 2, knit 2 together
+plain, 6 plain.</p>
+
+<p>2d row.—Knit plain; but in every “make 2” of last row
+knit 1 plain, 1 purl. Every row—to the 14th row, inclusive—designated
+by an even number is worked like the 2d row, and
+will therefore receive no further mention.</p>
+
+<p>3d row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw slipped stitch over them,
+make 2, knit 2 together plain, 4 plain, make 2, knit 2 together
+plain, 5 plain.</p>
+
+<p>5th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw slipped stitch over them,
+make 2, knit 2 together plain, 2 plain.</p>
+
+<p><i>Raised Work</i>, viz.: 1 plain; slip this 1 plain on the left
+needle, and then knit 1 plain in it without withdrawing the
+left needle from the loop. * Slip on the left needle the 1 plain
+which is on the right needle and knit 1 plain in it without
+withdrawing the left needle from the loop. Repeat from *.
+Bring the yarn forward; pass it backward between the last
+stitch made and the 3 next stitches, and cast off these 4
+stitches. Thus the first raised work is formed.</p>
+
+<p><span class="pagenum" id="Page_51">[51]</span></p>
+
+<p>Then 3 plain, make 2, knit 2 together plain, 4 plain.</p>
+
+<p>7th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw the slipped stitch over them,
+make 2, knit 2 together plain, 4 plain, <i>raised work</i> as in 5th
+row, 3 plain, make 2, knit 2 together plain, 3 plain.</p>
+
+<p>9th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw the slipped stitch over them,
+make 2, knit 2 together plain, 6 plain, <i>raised work</i>, 3 plain,
+make 2, knit 2 together plain, 2 plain.</p>
+
+<p>11th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw the slipped stitch over them,
+make 2, knit 2 together plain, 8 plain, <i>raised work</i>, 3 plain,
+make 2, knit 2 together plain, 1 plain.</p>
+
+<p>13th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw the slipped stitch over them,
+make 2, knit 2 together plain, 10 plain, <i>raised work</i>, 3 plain,
+make 2, knit 2 together plain.</p>
+
+<p>15th row.—Slip 1, knit 2 together plain, make 2, slip 1,
+knit 2 together plain and draw the slipped stitch over them,
+make 2, 2 together plain, 12 plain, <i>raised work</i>, 4 plain.</p>
+
+<p>16th row.—Cast off 7 stitches, 17 plain. Repeat from 1st
+to 16th rows inclusive.</p>
+
+<figure class="figleft illowp60" id="i_051" >
+  <img class="w100" src="images/i_051.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 58. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 58—<i>Lace Edging</i>.—This edging may be knitted with
+either worsted or cotton of medium size. Cast on 15 stitches.</p>
+
+<p>1st row.—Slip 1, 2 plain.
+Alternate 5 times: make 1,
+knit 2 together in twist
+stitch. Then make 1, 2
+plain.</p>
+
+<p>2d row.—Knit plain.</p>
+
+<p>3d row.—Slip 1, 12 plain.
+Unravel the next stitch of
+the 2d row which was made
+in the last “make 1” of the
+1st row. Take up on the
+left needle the 2 loops
+formed by that unraveling, and work in them 8 stitches as
+follows: 1 plain in the loop belonging to the 2d row. Make 1
+plain out of the 2 loops. * Pass the yarn from front to back<span class="pagenum" id="Page_52">[52]</span>
+over the point of the right needle, and out of the 2 loops make
+1 plain. Repeat twice from *. Then knit 2 plain.</p>
+
+<p>4th row.—Knit plain.</p>
+
+<p>5th row.—Slip 1, 2 plain. Alternate 5 times: make 1,
+knit 2 together plain, in twist stitch. Then 10 plain.</p>
+
+<p>6th and 7th rows.—Knit plain.</p>
+
+<p>8th row.—Cast off 8 stitches, 14 plain.</p>
+
+<p>Repeat from 1st to 8th rows, inclusive.</p>
+
+<figure class="figright illowp50" id="i_052a" >
+  <img class="w100" src="images/i_052a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 59 Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 59—<i>Lace Edging</i>.—Cast
+on 9 stitches.</p>
+
+<p>1st row.—Slip 1, 2 plain,
+narrow (by knitting 2 together
+plain), make 1,
+narrow twice.</p>
+
+<p>2d row.—Knit plain;
+but in the “make 1” of the last row, knit 1 plain, 1 purl.</p>
+
+<p>Every row designated by an even number must be knitted
+like the 2d row.</p>
+
+<p>3d row.—Slip 1, 3 plain, narrow, make 1, 2 plain.</p>
+
+<p>5th row.—Slip 1, 2 plain, make 1, narrow twice, make 1,
+2 plain.</p>
+
+<p>7th row.—Slip 1, 2 plain, narrow, make 1, narrow twice,
+make 1, 2 plain.</p>
+
+<p>9th row.—Slip 1, 1 plain, narrow, make 1, narrow twice,
+make 1, narrow twice.</p>
+
+<p>11th row.—Slip 1, 2 plain, narrow twice, make 1, narrow
+twice.</p>
+
+<p>12th row.—Like the 2d row.</p>
+
+<p>Repeat from 1st row until the required length of edging
+is worked.</p>
+
+<figure class="figleft illowp50" id="i_052b" >
+  <img class="w100" src="images/i_052b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 60. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 60—<i>Lace Edging</i>.—Cast
+on 10 stitches.</p>
+
+<p>1st row.—Slip 1, 3 plain,
+knit 2 together plain, make
+1, knit 2 together plain, 2
+plain.</p>
+
+<p>2d row.—Knit plain; but in the “make 1” of last row
+knit 1 plain, 1 purl.</p>
+
+<p>3d row.—Slip 1, 1 plain, knit 2 together plain, make 1,<span class="pagenum" id="Page_53">[53]</span>
+knit 2 together plain, knit 2 together plain, make 1, knit 2
+together plain.</p>
+
+<p>4th row.—Like 2d row.</p>
+
+<p>Repeat these 4 rows until the required length of edging
+is worked.</p>
+
+<figure class="figcenter illowp80" id="i_053" >
+  <img class="w100" src="images/i_053.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 61. Lace Insertion.</span></figcaption>
+</figure>
+
+<p>No. 61—<i>Insertion</i>.—Cast
+on 24
+stitches.</p>
+
+<p>1st row.—Slip
+1, make 1, knit 2
+together plain, 9
+plain, 4 purl, 6
+plain, make 1, knit
+2 together plain.</p>
+
+<p>2d row.—Slip
+1, make 1, knit 2
+together plain, 3
+plain. Alternate
+twice: make 1, knit.</p>
+
+<p>2 together plain. Then 2 plain. Alternate 3 times: knit 2
+together plain, make 1. Then 4 plain, make 1, knit 2 together
+plain.</p>
+
+<p>3d row.—Slip 1, make 1, 2 together plain, 8 plain, 4 purl,
+7 plain, make 1, 2 together plain.</p>
+
+<p>4th row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+3 times: make 1, 2 together plain. Then 2 plain.
+Alternate 3 times: 2 together plain, make 1. Then 3 plain,
+make 1, 2 together plain.</p>
+
+<p>5th row.—Slip 1, make 1, 2 together plain, 7 plain, 4 purl,
+8 plain, make 1, 2 together plain.</p>
+
+<p>6th row.—Slip 1, make 1, 2 together plain, 3 plain. Alternate
+3 times: make 1, 2 together plain. Then 2 plain. Alternate
+twice: 2 together plain, make 1. Then 4 plain, make 1,
+2 together plain.</p>
+
+<p>7th row.—Slip 1, make 1, 2 together plain, 6 plain, 4 purl,
+9 plain, make 1, 2 together plain.</p>
+
+<p>8th row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+4 times: make 1, 2 together plain. Then 2 plain. Alternate
+twice: 2 together plain, make 1. Then 3 plain, make 1,
+2 together plain.</p>
+
+<p><span class="pagenum" id="Page_54">[54]</span></p>
+
+<p>9th row.—Slip 1, make 1, 2 together plain, 5 plain, 4 purl,
+10 plain, make 1, 2 together plain.</p>
+
+<p>10th row.—Slip 1, make 1, 2 together plain, 3 plain. Alternate
+4 times: make 1, 2 together plain. Then 2 plain, 2
+together plain, make 1, 4 plain, make 1, 2 together plain.</p>
+
+<p>11th row.—Slip 1, make 1, 2 together plain, 4 plain, 4
+purl, 11 plain, make 1, 2 together plain.</p>
+
+<p>12th row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+5 times: make 1, 2 together plain. Then 2 plain, 2
+together plain, make 1, 3 plain, make 1, 2 together plain.</p>
+
+<p>13th row.—Slip 1, make 1, 2 together plain, 3 plain, 4 purl,
+12 plain, make 1, 2 together plain.</p>
+
+<p>14th row.—Slip 1, make 1, 2 together plain, 3 plain. Alternate
+4 times: make 1, 2 together plain. Then 2 plain, 2
+together plain, make 1, 4 plain, make 1, 2 together plain.</p>
+
+<p>15th row.—Slip 1, make 1, 2 together plain, 4 plain, 4
+purl, 11 plain, make 1, 2 together plain.</p>
+
+<p>16th row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+4 times: make 1, 2 together plain. Then 2 plain.
+Alternate twice: 2 together plain, make 1. Then 3 plain, make
+1, 2 together plain.</p>
+
+<p>17th row.—Slip 1, make 1, 2 together plain, 5 plain, 4 purl,
+10 plain, make 1, 2 together plain.</p>
+
+<p>18th row.—Slip 1, make 1, 2 together plain, 3 plain. Alternate
+3 times: make 1, 2 together plain. Then 2 plain.
+Alternate twice: 2 together plain, make 1. Then 4 plain, make
+1, 2 together plain.</p>
+
+<p>19th row.—Slip 1, make 1, 2 together plain, 6 plain, 4
+purl, 9 plain, make 1, 2 together plain.</p>
+
+<p>20th row.—Slip 1, make 1, 2 together plain, 2 plain.
+Alternate 3 times: make 1, 2 together plain. Then 2 plain.
+Alternate 3 times: 2 together plain, make 1. Then 3 plain,
+make 1, 2 together plain.</p>
+
+<p>21st row.—Slip 1, make 1, 2 together plain, 7 plain, 4 purl,
+8 plain, make 1, 2 together plain.</p>
+
+<p>22d row.—Slip 1, make 1, 2 together plain, 3 plain. Alternate
+twice: make 1, 2 together plain. Then 2 plain. Alternate
+3 times: 2 together plain, make 1. Then 4 plain, make
+1, 2 together plain.</p>
+
+<p><span class="pagenum" id="Page_55">[55]</span></p>
+
+<p>23d row.—Slip 1, make 1, 2 together plain, 8 plain, 4 purl,
+7 plain, make 1, 2 together plain.</p>
+
+<p>24th row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+twice: make 1, 2 together plain. Then 2 plain. Alternate
+4 times: 2 together plain, make 1. Then 3 plain, make
+1, 2 together plain.</p>
+
+<p>25th row.—Slip 1, make 1, 2 together plain, 9 plain, 4
+purl, 6 plain, make 1, 2 together plain.</p>
+
+<p>26th row.—Slip 1, make 1, 2 together plain, 3 plain, make
+1, 2 together plain, 2 plain. Alternate 4 times: 2 together
+plain, make 1. Then 4 plain, make 1, 2 together plain.</p>
+
+<p>27th row.—Slip 1, make 1, 2 together plain, 10 plain, 4
+purl, 5 plain, make 1, 2 together plain.</p>
+
+<p>28th row.—Slip 1, make 1, 2 together plain, 2 plain, make
+1, 2 together plain, 2 plain. Alternate 5 times: 2 together
+plain, make 1. Then 3 plain, make 1, 2 together plain.</p>
+
+<p>29th row.—Slip 1, make 1, 2 together plain, 11 plain, 4
+purl, 4 plain, make 1, 2 together plain.</p>
+
+<p>30th row.—Slip 1, make 1, 2 together plain, 3 plain, make
+1, 2 together plain, 2 plain. Alternate 4 times: 2 together
+plain, make 1. Then 4 plain, make 1, 2 together plain.</p>
+
+<p>31st row.—Slip 1, make 1, 2 together plain, 10 plain, 4
+purl, 5 plain, make 1, 2 together plain.</p>
+
+<p>32d row.—Slip 1, make 1, 2 together plain, 2 plain. Alternate
+twice: make 1, 2 together plain. Then 2 plain. Alternate
+4 times: 2 together plain, make 1. Then 3 plain,
+make 1, 2 together plain.</p>
+
+<p>Repeat from 1st to 32d rows, inclusive.</p>
+
+<figure class="figcenter illowp80" id="i_056" >
+  <img class="w100" src="images/i_056.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 62. Corner of an Edging.</span></figcaption>
+</figure>
+
+<p>No. 62—<i>Corner Border</i>.—This may be worked with cotton,
+crochet cotton or worsted. Cast on 24 stitches and knit
+in rows to and fro as follows:</p>
+
+<p>1st row.—Slip 1, 3 plain, 2 together plain. Alternate 3
+times: make 2, 2 together plain, twice. Then make 2, 2 together
+plain, 4 plain.</p>
+
+<p>2d row.—Slip 1, knit plain to end of row; but in every
+“make 2” of last row knit 1 plain, 1 purl.</p>
+
+<p>3d row.—Slip 1, 1 plain, 2 together plain. Alternate 4
+times: make 2, 2 together plain, twice. Then make 2, 2 together
+plain, 2 plain.</p>
+
+<p>4th row.—Like 2d row.</p>
+
+<p><span class="pagenum" id="Page_56">[56]</span></p>
+
+<p>Repeat from 1st to 4th rows, inclusive. Then work like
+1st and 2d rows.</p>
+
+<p>11th row.—Slip 1, 1 plain, 2 together plain, make 2, 2
+together plain, twice, make 2, 2 together plain, 4 plain, 2
+together plain, make 2, 2 together plain, twice, make 2, 2
+together plain, 2 plain.</p>
+
+<p>12th row.—Slip 1, 9 plain, 4 purl, 10 plain.</p>
+
+<p>13th row.—Slip 1, 3 plain, 2 together plain, make 2, 2 together
+plain, 8 plain, 2 together plain, make 2, 2 together
+plain, 4 plain.</p>
+
+<p>14th row.—Slip 1, 7 plain, 8 purl, 8 plain.</p>
+
+<p>15th row.—Slip 1, 1 plain, 2 together plain, make 2, 2 together
+plain, 4 plain, 2 together plain, make 2, 2 together
+plain, 4 plain, 2 together plain, make 2, 2 together plain, 2 plain.</p>
+
+<p>16th row.—Slip 1, 5 plain, 12 purl, 6 plain.</p>
+
+<p>17th row.—Like 13th row.</p>
+
+<p>18th row.—Like 14th row.</p>
+
+<p>19th row.—Like 11th row.</p>
+
+<p>20th row.—Like 12th row.</p>
+
+<p><span class="pagenum" id="Page_57">[57]</span></p>
+
+<p>In order to make the corner of this border, knit 2 together
+plain at the end of each row, on the wrong side of the work,
+and be careful to carry on the design in doing so. When the
+work has been narrowed down to a point, work back again,
+in rows, to where the corner was begun. While working back,
+increase by making 1 plain in the narrowing of each row narrowed
+when working <i>down</i> to the point.</p>
+
+<figure class="figcenter illowp80" id="i_057" >
+  <img class="w100" src="images/i_057.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 63. Corner of an Edging.</span></figcaption>
+</figure>
+
+<p>No. 63—<i>Corner Border</i>.—Cast on 21 stitches and knit in
+rows to and fro as follows:</p>
+
+<p>1st row.—Slip 1, 2 plain. * Alternate twice: make 1, 2
+together plain. Then 2 plain. Repeat twice from *.</p>
+
+<p>2d row.—Slip 1, 2 plain. * Alternate twice: make 1, 2
+together plain. Then 1 purl, 1 plain. Repeat twice from *;
+but at the end of the second repetition make 2 plain, instead
+of 1 purl, 1 plain.</p>
+
+<p>Repeat indefinitely 1st and 2d rows.</p>
+
+<p>The corner of this border is worked like that of No. 62.</p>
+
+<p><span class="pagenum" id="Page_58">[58]</span></p>
+
+<figure class="figleft illowp40" id="i_058a" >
+  <img class="w100" src="images/i_058a.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 64. Lace Insertion.</span></figcaption>
+</figure>
+
+<p>No. 64—<i>Insertion</i>.—This is worked width-wise in plain
+rows. Cast on 14 stitches.</p>
+
+<p>1st row.—Slip 1, 2 plain, make 1, 2 plain, make 4, 4 plain,
+make 1, narrow, 1 plain.</p>
+
+<p>2d row.—Slip 1, 2 plain, make 1,
+narrow, narrow, 4 plain, narrow, 2
+plain, make 1, narrow, 1 plain.</p>
+
+<p>3d row.—Slip 1, 2 plain, make 1,
+narrow, 8 plain, make 1, narrow, 1
+plain.</p>
+
+<p>4th row.—Slip 1, 2 plain, make 1,
+narrow, 8 plain, make 1, narrow, 1
+plain.</p>
+
+<p>5th row.—Slip 1, 2 plain, make 1, narrow, narrow, 2 plain,
+narrow, 2 plain, make 1, narrow, 1 plain.</p>
+
+<p>Repeat from 1st to 5th rows, inclusive, until required
+length is worked.</p>
+
+<figure class="figright illowp50" id="i_058b" >
+  <img class="w100" src="images/i_058b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 65. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 65—<i>Lace Edging</i>.—This is knitted width-wise in
+rows. Cast on 12 stitches.</p>
+
+<p>1st row.—Slip 1, 2 together in twist stitch, make 2, 2 together
+in twist stitch, 1 twist
+stitch. Alternate twice: make 1,
+2 together in twist stitch. Then
+make 1, 2 twist stitches.</p>
+
+<p>2d row.—Slip 1, knit plain
+to end of row; but in the “make
+2” of last row knit 1 plain, 1
+purl.</p>
+
+<p>3d row.—Slip 1, 2 together
+plain, in twist stitch, make 2, 2 together plain, in twist stitch,
+1 twist stitch, 5 plain. Take up on the left needle the 2 loops
+of the opening just below and make in them 1 plain, 1 purl, 1
+plain, 1 purl, 1 plain, 1 purl, 1 plain, 1 purl, 1 plain. Then
+knit the two last stitches plain.</p>
+
+<p>4th row.—Like the 2d.</p>
+
+<p>5th row.—Slip 1, 2 together plain, in twist stitch, make 2,
+2 together plain, in twist stitch, 1 twist stitch. Alternate 7
+times: make 1, 2 together in twist stitch. Then 2 plain.</p>
+
+<p>6th row.—Like the 2d.</p>
+
+<p><span class="pagenum" id="Page_59">[59]</span></p>
+
+<p>7th row.—Slip 1, 2 together plain, in twist stitch, make
+2, 2 together plain, in twist stitch, 1 twist stitch. 16 plain.</p>
+
+<p>8th row.—Cast off 10 stitches. Knit 8 plain, 1 purl, 2
+plain.</p>
+
+<p>Repeat indefinitely these 8 rows.</p>
+
+<figure class="figcenter illowp70" id="i_059" >
+  <img class="w100" src="images/i_059.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 66. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 66—<i>Lace Edging</i>.—This edging is worked with crochet
+cotton, upon a fancy feather-edge braid having trefoil
+loops on one side and single loops on the other. Cast on 6
+stitches and knit width-wise as follows:</p>
+
+<p>1st row.—Slip 1, 1 plain, make 1, 2 together plain, 2 plain.
+Then, on the side of the braid having single loops, knit 1 plain
+in one of these loops.</p>
+
+<p>2d row.—4 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>3d row.—Like the 1st; but at the end knit 3 plain instead
+of 2 plain.</p>
+
+<p>4th row.—Like the 2d; but at the beginning make 5 plain
+instead of 4 plain.</p>
+
+<p>5th row.—Like the 1st; but at the end knit 4 plain instead
+of 2 plain.</p>
+
+<p>6th row.—1 plain, 2 together plain, make 2, 2 together
+plain, 1 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>7th row.—Slip 1, 1 plain, make 1, 2 together plain, 1 plain.
+Then in the “make 2” of last row knit 1 plain, 1 purl, 1 plain.
+Then 2 plain. Knit 1 plain in next loop of braid.</p>
+
+<p>8th row.—8 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>9th row.—Slip 1, 1 plain, make 1, 2 together plain, 2 plain,
+cast off 3 stitches, 1 plain, 1 plain next loop of braid.</p>
+
+<p>10th row.—3 plain, make 2, 3 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p><span class="pagenum" id="Page_60">[60]</span></p>
+<p>11th row.—Slip 1, 1 plain, make 1, 2 together plain, 2
+plain. Knit in the “make 2” of last row 1 plain, 1 purl, 1
+plain, 1 purl. Then 3 plain, 1 plain in next loop of braid.</p>
+
+<p>12th row.—11 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>13th row.—Slip 1, 1 plain, make 1, 2 together plain, 3
+plain, cast off 4 stitches, 2 plain, 1 plain in next loop of braid.</p>
+
+<p>14th row.—4 plain, make 2, 4 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>15th row.—Slip 1, 1 plain, make 1, 2 together plain, 3
+plain. Then in the “make 2” of last row knit 1 plain, 1 purl,
+1 plain, 1 purl, 1 plain. Then 4 plain. Out of the 2 following
+loops of braid make 1 plain.</p>
+
+<p>16th row.—14 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>17th row.—Slip 1, 1 plain, make 1, 2 together plain, 4
+plain, cast off 5 stitches, 3 plain, 1 plain out of next 2 loops
+of braid.</p>
+
+<p>18th row.—5 plain, make 3, 5 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>19th row.—Slip 1, 1 plain, make 1, 2 together plain, 4
+plain. Then in the “make 2” of last row knit 1 plain, 1 purl,
+1 plain, 1 purl, 1 plain, 1 purl. Then 5 plain. Out of the 3
+next loops of braid make 1 plain.</p>
+
+<p>20th row.—2 plain, 2 together plain, make 2, 2 together
+plain, 6 plain, 2 together plain, make 2, 2 together plain, 1
+plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>21st row.—Slip 1, 1 plain, make 1, 2 together plain, 1 plain.
+In the “make 2” of last row knit 1 plain, 1 purl, 1 plain.
+Cast off 6 stitches. In the “make 2” of last row knit 1 plain,
+1 purl. Then 2 together plain. Out of the next stitch and
+the next two loops of braid, taken together, knit 1 plain.</p>
+
+<p>22d row.—5 plain, make 2, 5 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>23d row.—Slip 1, 1 plain, make 1, 2 together plain, 4
+plain. In the “make 2” of last row 1 plain, 1 purl, 1 plain,
+1 purl, 1 plain. Then 4 plain. Out of the next stitch and the
+next 2 loops of braid, taken together, knit 1 plain.</p>
+
+<p>24th row.—15 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>25th row.—Slip 1, 1 plain, make 1, 2 together plain, 3
+plain, cast off 5 stitches, 2 plain, 2 together plain. Out of
+next stitch and next loop of braid 1 plain.</p>
+
+<p><span class="pagenum" id="Page_61">[61]</span></p>
+
+<p>26th row.—5 plain, make 2, 4 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>27th row.—Slip 1, 1 plain, make 1, 2 together plain, 3
+plain. In the “make 2” of last row knit 1 plain, 1 purl, 1
+plain, 1 purl. Then 2 plain, 2 together plain. Out of the next
+stitch and the next loop of braid knit 1 plain.</p>
+
+<p>28th row.—12 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>29th row.—Slip 1, 1 plain, make 1, 2 together plain, 2
+plain, cast off 4 stitches, 1 plain, 2 together plain. Out of
+next stitch and the next loop of braid 1 plain.</p>
+
+<p>30th row.—4 plain, make 2, 3 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>31st row.—Slip 1, 1 plain, make 1, 2 together plain, 2
+plain. In the “make 2” of last row knit 1 plain, 1 purl, 1
+plain. Then 2 together plain. Out of next stitch and next
+loop of braid knit 1 plain.</p>
+
+<p>32d row.—9 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>33d row.—Slip 1, 1 plain, make 1, 2 together plain, 1 plain,
+cast off 3 stitches, 2 together plain. Out of the next stitch
+and the next loop of braid knit 1 plain.</p>
+
+<p>34th row.—3 plain, make 1, 2 plain, make 1, 2 together
+plain, 1 plain.</p>
+
+<p>35th row.—Slip 1, 1 plain, make 1, 2 together plain, 1
+plain, 1 plain, 1 purl, 2 together plain. Then out of the next
+stitch and the next loop of braid 1 plain.</p>
+
+<p>36th row.—1 plain, 2 together plain twice, 1 plain, make
+1, 2 together plain, 1 plain.</p>
+
+<p>37th row.—Slip 1, 1 plain, make 1, 2 together plain, 2
+plain. Out of next stitch and next loop of braid 1 plain.</p>
+
+<p>38th row.—4 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>39th row.—Slip 1, 1 plain, make 1, 2 together plain twice.
+Out of next stitch and next loop of braid 1 plain.</p>
+
+<p>40th row.—3 plain, make 1, 2 together plain, 1 plain.</p>
+
+<p>Repeat indefinitely these 40 rows.</p>
+
+<figure class="figcenter illowp70" id="i_062" >
+  <img class="w100" src="images/i_062.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 67. Lace Insertion.</span></figcaption>
+</figure>
+
+<p>No. 67—<i>Insertion</i>.—Cast on 20 stitches. Knit in rows to
+and fro as follows:</p>
+
+<p>1st row.—Knit plain.</p>
+
+<p>2d row.—Slip 1, 1 plain. Work 4 times as follows: 2 together
+plain, make 2, 2 together plain in twist stitch. After
+the fourth time, 2 plain.</p>
+
+<p><span class="pagenum" id="Page_62">[62]</span></p>
+
+<p>3d row.—Knit plain; but in each “make 2” of last row
+knit 1 plain, 1 purl.</p>
+
+<p>4th row.—Slip 1, 3 plain. Work 3 times as follows: 2
+together plain, make 2, 2 together plain in twist stitch. Then
+4 plain.</p>
+
+<p>5th row.—Like 3d.</p>
+
+<p>6th row.—Slip 1, 5 plain. Work twice as follows: 2 together
+plain, make 2, 2 together plain in twist stitch. Then
+6 plain.</p>
+
+<p>7th row.—Like 3d.</p>
+
+<p>8th row.—Slip 1, 7 plain, 2 together plain, make 2, 2 together
+plain in twist stitch.</p>
+
+<p>9th row.—Like 3d.</p>
+
+<p>10th row.—Plain.</p>
+
+<p>11th row.—Like 3d.</p>
+
+<p>12th row.—Like 8th.</p>
+
+<p>13th row.—Like 3d.</p>
+
+<p>14th row.—Like 6th.</p>
+
+<p>15th row.—Like 3d.</p>
+
+<p>16th row.—Like 4th.</p>
+
+<p>Repeat indefinitely these 16 rows.</p>
+
+<p><span class="pagenum" id="Page_63">[63]</span></p>
+
+<figure class="figcenter illowp75" id="i_063" >
+  <img class="w100" src="images/i_063.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 68. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 68—<i>Lace Edging</i>.—Cast on 21 stitches.</p>
+
+<p>1st row.—Knit plain.</p>
+
+<p>The following rows, designated by an odd number, are
+worked like 3d row in No. 67.</p>
+
+<p>2d row.—Slip 1, 1 plain. Work four times as follows: 2
+together plain, make 2, 2 together plain in twist stitch. Then
+3 plain.</p>
+
+<p>4th row.—Slip 1, 3 plain. Work 3 times: 2 together
+plain, make 2, 2 together plain in twist stitch. Then 4 plain.
+In the last stitch make 1 plain, 1 purl.</p>
+
+<p>6th row.—Slip 1, 5 plain. Work twice as follows: 2 together
+plain, make 2, 2 together plain in twist stitch. Then
+7 plain. In the last stitch knit 1 plain, 1 purl.</p>
+
+<p>8th row.—Slip 1, 7 plain, 2 together plain, make 2, 2 together
+plain in twist stitch, 10 plain. In the last stitch make
+1 plain, 1 purl.</p>
+
+<p>10th row.—Slip 1, 16 plain, 2 together plain, make 2, 2
+together plain in twist stitch, 3 plain.</p>
+
+<p>12th row.—Slip 1, 7 plain, 2 together plain, make 2, 2 together
+plain in twist stitch, 10 plain, 2 together plain.</p>
+
+<p><span class="pagenum" id="Page_64">[64]</span></p>
+
+
+<p>14th row.—Slip 1, 5 plain. Work twice as follows: 2 together
+plain, make 2, 2 together plain in twist stitch. Then 7
+plain, 2 together plain.</p>
+
+<p>16th row.—Slip 1, 3 plain. Work 3 times as follows: 2
+together plain, make 2, 2 together plain in twist stitch. Then
+4 plain, 2 together plain.</p>
+
+<p>Repeat indefinitely these 16 rows; but in the 2d repetition
+knit the 10th row plain, as also in every alternate repetition;
+that is, knit 10th row plain, in 4th, 6th, 8th, etc.
+repetitions. The upper and lower edges are finished off by
+crocheting 1 close chain stitch in each stitch of those edges.</p>
+
+<figure class="figright illowp60" id="i_064" >
+  <img class="w100" src="images/i_064.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 69. Lace Insertion.</span></figcaption>
+</figure>
+
+<p>No. 69—<i>Insertion</i>.—Cast on 28 stitches and knit in rows
+to and fro in the following manner:</p>
+
+<p>1st row.—Knit plain. Each row designated by an odd
+number must be knitted plain, but in every “make 2” knit
+1 plain, 1 purl.</p>
+
+<p>2d row.—Slip 1. Alternate 3 times: 2 together plain in
+twist stitch, make 1.
+Then 2 together plain
+in twist stitch, 3 plain.
+<i>Raised Work</i>, <i>i. e.</i> [knit
+1 plain in next stitch
+without withdrawing
+the left needle from the
+loop, slip on the left
+needle this 1 plain, *
+knit 1 plain in the latter
+without withdrawing
+the left needle from the
+loop, slip on the left
+needle this 1 plain. Repeat
+once from *, pass
+the yarn from front to back between the 1 plain last made and
+the remaining stitches on the left needle. Then cast off these
+3 loops.] Knit 2 plain. Work in next stitch the raised work
+in same manner as already described. Knit 3 plain. Then
+alternate 3 times: 2 together plain, make 1. Then 2 together
+plain, 1 plain.</p>
+
+<p>4th row.—Slip 1. Alternate 3 times: 2 together plain in
+twist stitch, make 1. Then 2 together plain in twist stitch, 2<span class="pagenum" id="Page_65">[65]</span>
+
+plain, 2 together plain in twist stitch, make 2, 2 together plain,
+2 plain. Alternate 3 times: 2 together plain in twist stitch,
+make 1. Then 2 together plain, 1 plain.</p>
+
+<p>6th row.—Slip 1. Alternate 3 times: 2 together plain in
+twist stitch, make 1. Then 2 together plain in twist stitch,
+6 plain. Alternate 3 times: 2 together plain, make 1. Then
+2 together plain, 1 plain.</p>
+
+<p>8th row.—Like 6th row, but knit 4 plain instead of the 6
+plain.</p>
+
+<p>10th row.—Like 6th row, but knit 2 plain instead of the 6
+plain.</p>
+
+<p>12th row.—Form on the left needle 5 new stitches from
+the 1st stitch. Cast off these 5 stitches and thus form the 1st
+bar. Alternate 3 times: 2 together plain in twist stitch, make
+1. After this, 2 together plain in twist stitch. Alternate 3
+times: 2 together plain, make 1. Then 2 together plain, 1
+plain. Turn the work and form 5 new stitches from the 1st
+stitch. Cast off these 5 stitches and thus form the 2d bar.
+Then knit plain to end of row.</p>
+
+<p>14th row.—Slip 1, 1 plain. Alternate twice: make 1, 2
+together plain in twist stitch. Then make 1, 4 plain, make 1.
+Alternate twice: 2 together plain, make 1. Then 2 plain.</p>
+
+<p>16th row.—Like 14th, but knit 6 plain instead of 4 plain.</p>
+
+<p>18th row.—Slip 1, 1 plain. Alternate twice: make 1, 2
+together plain in twist stitch. Then make 1, 2 plain, 2 together
+plain in twist stitch, make 2, 2 together plain, 2 plain.
+Alternate twice: make 1, 2 together plain. Then make 1, 2
+plain.</p>
+
+<p>20th row.—Slip 1, 1 plain. Alternate twice: make 1, 2
+together plain in twist stitch. Then make 1, 3 plain, raised
+work in next stitch, 2 plain, raised work in next stitch, 3
+plain. Alternate twice: make 1, 2 together plain. Then
+make 1, 2 plain.</p>
+
+<p>22d row.—Like 14th row; but knit 12 plain instead of 4
+plain.</p>
+
+<p>24th row.—In order to make the bar joining the two
+points, form on the left needle 5 new stitches from the first
+stitch of this row without withdrawing the left needle from
+the loop of this first stitch. Take up on left needle the stitch
+at the end of bar in 12th row, and form 5 new stitches from<span class="pagenum" id="Page_66">[66]</span>
+it. Take up on left needle the stitch of the preceding point;
+then cast off stitches formed from beginning of 24th row.
+Knit 1 plain. Alternate twice: make 1, 2 together plain in
+twist stitch. Then make 1, 2 plain, 2 together plain in twist
+stitch, make 2, 2 together plain, 1 plain, raised work in next
+stitch, 2 together plain in twist stitch, make 2, 2 together
+plain, 2 plain. Alternate twice: make 1, 2 together plain.
+Then make 1, 2 plain. Turn the work, and, starting from
+the first stitch, make bar in same manner as at beginning of
+last row.</p>
+
+<p>Repeat indefinitely these 24 rows.</p>
+
+<figure class="figcenter illowp75" id="i_066" >
+  <img class="w100" src="images/i_066.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 70. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 70—<i>Fancy Design</i>.—Cast on the number of stitches
+required for the length of the work.</p>
+
+<p>1st row.—Slip 1, 2 plain, * make 1, 3 together plain, make
+1, 3 plain. Repeat from * to end of row. At end of row 3
+plain.</p>
+
+<p>2d row.—Slip 1, 2 purl, * make 1, 1 purl, make 1, 5 purl.
+Repeat from *. At end of row 4 purl.</p>
+
+<p>3d row.—Slip 1, 3 plain, * make 1, drop from needle the
+“make 1” of last row, 1 twist stitch, make 1, drop from<span class="pagenum" id="Page_67">[67]</span>
+needle the “make 1” of last row, 5 plain. Repeat from *.
+At end of row 4 plain.</p>
+
+<p>4th row.—Slip 1, 3 purl, * make 1, drop from needle the
+“make 1” of last row, 1 twist stitch, make 1, drop from needle
+the “make 1” of last row, 5 purl. Repeat from *. At the
+end of the row make 4 purl.</p>
+
+<p>5th to 10th rows.—Alternate 3d and 4th rows.</p>
+
+<p>11th row.—Slip 1, 1 plain, 2 together plain, * make 1,
+drop from needle the “make 1” of last row, 1 twist stitch,
+make 1, drop from needle the “make 1” of last row, 2 together
+plain, 1 plain, 2 together plain. Repeat from *. At
+end of row make 2 together plain, 2 plain.</p>
+
+<p>12th row.—Slip 1, purl 2 together, * make 1, 3 purl, make
+1, 3 together. Repeat from *. At end of row 2 together, 1 purl.</p>
+
+<p>13th row.—Slip 1, 1 plain, * make 1, slip 1, 2 together
+and draw the slipped stitch over them, make 1, 2 together,
+make 1, 1 plain. Repeat from *. At end of row knit 2 plain.</p>
+
+<p>14th row.—Slip 1, 1 purl, * make 1, 2 together, 1 purl, 2
+together, make 1, 1 purl. Repeat from *. At end of row 2
+purl.</p>
+
+<figure class="figright illowp60" id="i_067" >
+  <img class="w100" src="images/i_067.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 71. Lace Insertion.</span></figcaption>
+</figure>
+
+<p>No. 71—<i>Insertion</i>.—Cast on 27 stitches and knit in rows
+to and fro.</p>
+
+<p>1st row.—Slip 1, 12 plain, 1 purl, 13 plain.</p>
+
+<p>2d row.—Slip 1, 2 plain. Alternate 3 times: make 1, 2
+together plain. Then
+make 1, 3 together
+plain, make 1, 3 plain,
+make 1, 3 together
+plain. Alternate 3
+times: make 1, 2 together
+plain. Then
+make 1, 3 plain.</p>
+
+<p>3d row.—Slip 1, 11
+plain, 3 purl, 12 plain.</p>
+
+<p>4th row.—Slip 1, 1
+plain. Alternate 3
+times: make 1, 2 together
+plain. Then
+make 1, 3 together
+plain, make 1, 5 plain,<span class="pagenum" id="Page_68">[68]</span>
+make 1, 3 together plain. Alternate 3 times: make 1, 2 together
+plain. Then make 1, 2 plain.</p>
+
+<p>5th row.—Slip 1, 10 plain, 5 purl, 11 plain.</p>
+
+<p>6th row.—Slip 1, 2 plain. Alternate twice: make 1, 2
+together plain. Then make 1, 3 together plain, make 1, 7
+plain, make 1, 3 together plain. Alternate twice: make 1,
+2 together plain. Then make 1, 3 plain.</p>
+
+<p>7th row.—Slip 1, 9 plain, 7 purl, 10 plain.</p>
+
+<p>8th row.—Slip 1, 1 plain. Alternate twice: make 1, 2
+together plain. Then make 1, 3 together plain, make 1, 2
+plain, 2 together plain, make 1, 1 purl, make 1, 2 together
+plain, 2 plain, make 1, 3 together plain. Alternate twice:
+make 1, 2 together plain. Then make 1, 2 plain.</p>
+
+<p>9th row.—Slip 1, 8 plain, 4 purl, 1 plain, 4 purl, 9 plain.</p>
+
+<p>10th row.—Slip 1, 2 plain, make 1, 2 together plain, make
+1, 3 together plain, make 1, 2 plain, 2 together plain, make 1,
+3 purl, make 1, 2 together plain, 2 plain, make 1, 3 together
+plain, make 1, 2 together plain, make 1, 3 plain.</p>
+
+<p>11th row.—Slip 1, 7 plain, 4 purl, 3 plain, 4 purl, 8
+plain.</p>
+
+<p>12th row.—Slip 1, 1 plain, make 1, 2 together plain, make
+1, 3 together plain, make 1, 2 plain, 2 together plain, make 1,
+5 purl, make 1, 2 together plain, 2 plain, make 1, 3 together
+plain, make 1, 2 together plain, make 1, 2 plain.</p>
+
+<p>13th row.—Slip 1, 6 plain, 4 purl, 5 plain, 4 purl, 7 plain.</p>
+
+<p>14th row.—Slip 1, 2 plain, make 1, 3 together plain, make
+1, 2 plain, 2 together plain, make 1, 7 purl, make 1, 2 together
+plain, 2 plain, make 1, 3 together plain, make 1, 3 plain.</p>
+
+<p>15th row.—Slip 1, 5 plain, 4 purl, 7 plain, 4 purl, 6 plain.</p>
+
+<p>16th row.—Slip 1, 1 plain, make 1, 3 together plain, make
+1, 2 plain, 2 together plain, make 1, 2 purl, purl 2 together,
+make 3, purl 3 together, purl 2, make 1, 2 together plain, 2
+plain, make 1, 3 together plain, make 1, 2 plain.</p>
+
+<p>17th row.—Slip 1, 4 plain, 4 purl, 3 plain. In the “make
+3” of last row 1 plain, 1 purl, 1 plain. Then 3 plain, 4 purl,
+5 plain.</p>
+
+<p>18th row.—Slip 1, 2 plain. Alternate twice: make 1, 2
+together plain. Then 2 plain, make 1, purl 2 together, 5 purl,
+purl 2 together, make 1, 2 plain. Alternate twice: 2 together
+plain, make 1. Then 3 plain.</p>
+
+<p><span class="pagenum" id="Page_69">[69]</span></p>
+
+
+<p>19th row.—Slip 1, 5 plain, 4 purl, 7 plain, 4 purl, 6 plain.</p>
+
+<p>20th row.—Slip 1, 1 plain. Alternate 3 times: make 1,
+2 together plain. Then 2 plain, make 1, purl 2 together, 3
+purl, purl 2 together, make 1, 2 plain, 2 together plain. Alternate
+twice: make 1, 2 together plain. Then make 1, 2 plain.</p>
+
+<p>21st row.—Slip 1, 6 plain, 4 purl, 5 plain, 4 purl, 7 plain.</p>
+
+<p>22d row.—Slip 1, 2 plain. Alternate 3 times: make 1, 2
+together plain. Then 2 plain, make 1, purl 2 together, 1 purl,
+purl 2 together, make 1, 2 plain. Alternate 3 times: 2 together
+plain, make 1. Then 3 plain.</p>
+
+<p>23d row.—Slip 1, 7 plain, 4 purl, 3 plain, 4 purl, 8 plain.</p>
+
+<p>24th row.—Slip 1, 1 plain. Alternate 4 times: make 1, 2
+together plain. Then 2 plain, make 1, purl 3 together, make
+1, 2 plain. Alternate 4 times: 2 together plain, make 1. Then
+2 plain.</p>
+
+<p>25th row.—Slip 1, 8 plain, 4 purl, 1 plain, 4 purl, 9 plain.</p>
+
+<p>26th row.—Slip 1, 2 plain. Alternate 4 times: make 1,
+2 together plain. Then 5 plain. Alternate 4 times: 2 together
+plain, make 1. Then 3 plain.</p>
+
+<p>27th row.—Slip 1, 9 plain, 7 purl, 10 plain.</p>
+
+<p>28th row.—Slip 1, 1 plain. Alternate 5 times: make 1, 2
+together plain. Then 3 plain. Alternate 5 times: 2 together
+plain, make 1. Then 2 plain.</p>
+
+<p>29th row.—Slip 1, 10 plain, 5 purl, 11 plain.</p>
+
+<p>30th row.—Slip 1, 2 plain. Alternate 5 times: make 1, 2
+together plain. Then 1 plain. Alternate 5 times: 2 together
+plain, make 1. Then 3 plain.</p>
+
+<p>31st row.—Slip 1, 11 plain, 3 purl, 12 plain.</p>
+
+<p>32d row.—Slip 1, 1 plain. Alternate 5 times: make 1, 2
+together plain. Then make 1, 3 together plain, make 1. Alternate
+5 times: 2 together plain, make 1. Then 2 plain.</p>
+
+<p>Repeat indefinitely these 32 rows.</p>
+
+<figure class="figcenter illowp70" id="i_070" >
+  <img class="w100" src="images/i_070.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 72. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 72—<i>Lace Edging</i>.—Cast on 47 stitches, and knit in
+rows to fro.</p>
+
+<p>1st row.—Plain.</p>
+
+<p>2d row.—Slip 1, 7 plain.</p>
+
+<p><i>Raised Work</i>, <i>i. e.</i> [out of the next stitch form 7 stitches
+as follows: knit 1 plain without withdrawing the left needle
+from the loop, * slip this 1 plain on the left needle and knit 1<span class="pagenum" id="Page_70">[70]</span>
+plain in it. Repeat from * until 7 stitches have been formed.
+Cast off these 7 stitches.]</p>
+
+<p>Knit 3 plain, “raised work” in next stitch, 8 plain. Alternate
+7 times: purl 2 together, make 1. Then 2 plain, purl
+2 together, make 2, purl 2 together, 6 plain.</p>
+
+<p>3d row.—Plain; but in every “make 2” of preceding
+row knit 1 purl, 1 plain.</p>
+
+<p>Each row designated by an odd number must be knitted
+like the 3d row.</p>
+
+<p>4th row.—Slip 1, 1 plain, purl 2 together, make 2, purl 2
+together, 10 plain, purl 2 together, make 2, purl 2 together.
+Alternate 6 times: purl 2 together, make 1. Then 2 plain,
+purl 2 together, make 2, purl 2 together, 4 plain, purl 2 together,
+make 2, purl 2 together, 1 plain.</p>
+
+<p><span class="pagenum" id="Page_71">[71]</span></p>
+
+
+<p>6th row.—Slip 1, 15 plain. With following stitch fasten
+the 2d “raised work” of 2d row by taking up on left
+needle the stitch at the end of the “raised work,” and knitting
+it with the following stitch together, 2 plain. Alternate
+5 times: purl 2 together, make 1. Then 2 plain, purl 2 together,
+make 2, purl 2 together, 11 plain. In the last stitch
+of row knit 1 purl, 1 plain.</p>
+
+<p>8th row.—Slip 1, 1 plain, purl 2 together, make 2, purl 2
+together, 6 plain. Now fasten in next stitch the 1st “raised
+work” in manner already described. Then 1 plain, purl together,
+make 2, purl 2 together. Alternate 4 times: purl 2
+together, make 1. Then 2 plain, purl 2 together, make 2,
+purl 2 together, 11 plain, purl 2 together, make 2, purl 2 together,
+1 plain.</p>
+
+<p>10th row.—Slip 1, 11 plain, purl 2 together, make 2, purl
+2 together, 1 plain. Alternate 3 times: purl 2 together, make
+1. Then 2 plain, purl 2 together, make 2, purl 2 together, 9
+plain. “Raised work,” as in 2d row. Then 8 plain. In last
+stitch of row 1 purl, 1 plain.</p>
+
+<p>12th row.—Slip 1, 1 plain, purl 2 together, make 2, purl
+2 together, 4 plain, purl 2 together, make 2, purl 2 together,
+2 plain. Alternate twice: purl 2 together, make 1. Then 2
+plain, purl 2 together, make 2, purl 2 together, 6 plain,
+“raised work,” 5 plain, purl 2 together, make 2, purl 2 together,
+2 plain, purl 2 together, make 2, purl 2 together, 1
+plain.</p>
+
+<p>14th row.—Slip 1, 7 plain, purl 2 together, make 2, purl 2
+together, 3 plain, purl 2 together, make 1, 2 plain, purl 2
+together, make 2, purl 2 together, 13 plain, purl 2 together,
+make 2, purl 2 together twice. Then make 2, purl 2 together,
+4 plain. In last stitch of row 1 purl, 1 plain.</p>
+
+<p>16th row.—Slip 1, 1 plain, purl 2 together, make 2, purl 2
+together twice, make 2, purl 2 together, 4 plain, purl 2
+together, make 1, purl 2 together, make 2, purl 2 together, 9
+plain. In next stitch fasten 1 “raised work,” 2 plain, fasten
+the other “raised work,” 5 plain, purl 2 together, make 2,
+purl 2 together, 3 plain, purl 2 together, make 2, purl 2
+together, 1 plain.</p>
+
+<p>18th row.—Slip 1, 7 plain, purl 2 together, make 2, purl 2
+together, 4 plain, make 1, purl 2 together, 1 plain, purl 2<span class="pagenum" id="Page_72">[72]</span>
+together, make 2, purl 2 together, 5 plain, “raised work,” 3
+plain, “raised work,” 3 plain. Then purl 2 together, make
+2, purl 2 together twice, make 2, purl 2 together, 4 plain,
+purl 2 together.</p>
+
+<p>20th row.—Slip 1, 1 plain, purl 2 together, make 2, purl 2
+together, 4 plain, purl 2 together, make 2, purl 2 together, 3
+plain. Alternate twice: make 1, purl 2 together. Then 1
+plain, purl 2 together, make 2, purl 2 together, 12 plain, purl
+2 together, make 2, purl 2 together, 2 plain, purl 2 together,
+make 2, purl 2 together, 1 plain.</p>
+
+<p>22d row.—Slip 1, 11 plain, purl 2 together, make 2, purl
+2 together, 2 plain. Alternate 3 times: make 1, purl 2 together.
+Then 1 plain, purl 2 together, make 2, purl 2 together,
+4 plain, fasten “raised work,” 4 plain, fasten “raised
+work,” 8 plain, purl 2 together.</p>
+
+<p>24th row.—Slip 1, 1 plain, purl 2 together, make 2, purl
+2 together, 5 plain, “raised work,” 2 plain. Then purl 2
+together, make 2, purl 2 together, 1 plain. Alternate 4 times:
+make 1, purl 2 together. Then 1 plain, purl 2 together, make
+2, purl 2 together, 11 plain, purl 2 together, make 2, purl 2
+together, 1 plain.</p>
+
+<p>26th row.—Slip 1, 14 plain, “raised work,” 4 plain. Alternate
+5 times: make 1, purl 2 together. Then 1 plain, purl
+2 together, make 2, purl 2 together, 11 plain, purl 2 together.</p>
+
+<p>28th row.—Slip 1, 1 plain, purl 2 together, make 2, purl 2
+together, 10 plain, purl 2 together, make 2, purl 2 together, 1
+plain. Alternate 6 times: make 1, purl 2 together. Then 1
+plain, purl 2 together, make 2, purl 2 together, 4 plain, purl
+2 together, make 2, purl 2 together, 1 plain.</p>
+
+<p>30th row.—Slip 1, 21 plain. Alternate 6 times: make 1,
+purl 2 together. Then 2 plain, purl 2 together, make 2, purl
+2 together, 4 plain, purl 2 together, 1 plain.</p>
+
+<p>32d row.—Slip 1, 1 plain, purl 2 together, make 2, purl
+2 together, 2 plain, fasten “raised work,” 3 plain, fasten
+“raised work,” 5 plain, purl 2 together, make 2, purl 2 together,
+1 plain. Alternate 7 times: make 1, purl 2 together.
+Then 2 plain, purl 2 together, make 2, purl 2 together, make
+2, purl 2 together, 1 plain.</p>
+
+<p>Repeat indefinitely these 32 rows.</p>
+
+<p><span class="pagenum" id="Page_73">[73]</span></p>
+
+<figure class="figleft illowp50" id="i_073" >
+  <img class="w100" src="images/i_073.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 73. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 73—<i>Lace Edging</i>.—Cast on 13 stitches, and knit in
+rows to and fro.</p>
+
+<p>1st row.—3 <ins id="pearl" class="corr" title="Transcriber's Note&mdash;original text: pearl">purl</ins>, 8 plain, 2 purl.</p>
+
+<p>2d row.—Narrow, by slipping 1 stitch, knitting 1 plain
+and drawing the slipped stitch over it; make 1, 8 purl, make
+1, slip 1, 2 together plain
+and draw slipped stitch
+over them.</p>
+
+<p>3d row.—Make in the
+next stitch 1 plain, 1 purl.
+Then 10 plain, 1 purl.</p>
+
+<p>4th row.—Slip 1, 1 plain,
+make 1, purl 2 together, 4
+purl, purl 2 together, make
+1, 3 plain.</p>
+
+<p>5th row.—In the next stitch 1 plain, 1 purl. Then 3
+purl, 6 plain, 3 purl.</p>
+
+<p>6th row.—Slip 1, 2 plain, make 1, purl 2 together, 2 purl,
+purl 2 together, make 1, 5 plain.</p>
+
+<p>7th row.—In the next stitch, 1 plain, 1 purl. Then
+5 purl, 4 plain, 4 purl.</p>
+
+<p>8th row.—Slip 1, 3 plain, make 1, purl 2 together twice,
+make 1, 1 plain, 2 together plain, make 2, 2 together plain, 2
+plain.</p>
+
+<p>9th row.—Slip 1, 2 purl, 1 plain, 1 purl, 3 purl, 2 plain, 5 purl.</p>
+
+<p>10th row.—Slip 1, 1 plain, 2 together plain, make 1, 4
+purl, make 1, 2 together plain, 3 plain, 2 together plain.</p>
+
+<p>11th row.—Slip 1, 4 purl, 6 plain, 3 purl.</p>
+
+<p>12th row.—Slip 1, 2 together plain, make 1, 6 purl, make
+1, 2 together plain, 1 plain, 2 together plain.</p>
+
+<p>Repeat indefinitely these 12 rows.</p>
+
+<figure class="figleft illowp50" id="i_074" >
+  <img class="w100" src="images/i_074.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 74. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 74—<i>Lace Edging</i>.—Cast on 15 stitches, knit width-wise
+in rows to and fro.</p>
+
+<p>1st row.—Slip 1, 2 together plain, make 2, slip 1, 2 together
+plain and draw slipped stitch over them, make 2, 2 together
+plain, 2 plain, make 3, 2 plain. Alternate 3 times: make 2,
+1 plain.</p>
+
+<p>2d row.—Plain; but in each “make 2,” knit 1 purl, 1
+plain; and in the “make 3” knit 1 plain, 1 purl, 1 plain.</p>
+
+<p>3d row.—Slip 1, 2 together plain, make 2, slip 1, 2 together<span class="pagenum" id="Page_74">[74]</span>
+plain and draw slipped stitch over them, make 2, 2 together plain,
+ 1 plain, 2 together plain, 1 plain. Raised work, <i>i. e.</i>,
+[from the next stitch form 7 new stitches, as follows:
+knit 1 plain without withdrawing
+the left needle from
+the loop: * slip this 1 plain
+on the left needle and knit 1
+plain in it. Repeat from *
+until 7 stitches have been
+formed. Cast off these 7
+stitches.] Alternate 3 times:
+2 plain, raised work in the
+next stitch. Then 2 plain.</p>
+
+<p>4th row.—Plain.</p>
+
+<p>5th row.—Slip 1, 2 together
+plain, make 2, slip 1, 2 together
+plain and draw slipped stitch over them, make 2, 2
+together plain, 15 plain.</p>
+
+<p>6th row.—Plain.</p>
+
+<p>7th row.—Slip 1, 2 together plain, make 2, slip 1, 2 together
+plain, and draw slipped stitch over them, make 2, 2
+together plain, 5 plain. Alternate 3 times: knit together the
+next stitch with the stitch at end of raised work of 3d row, 2
+plain. Then join the fourth raised work of 3d row with the
+following stitch.</p>
+
+<p>8th row.—Slip 1 and lengthen the loop somewhat, 9 plain
+and lengthen each loop evenly, make 3, 2 together plain, 11
+plain.</p>
+
+<p>9th row.—Slip 1, 2 together plain, make 2, slip 1, 2 together
+plain and draw slipped stitch over them, make 2, 2
+together plain, 7 plain. In the “make 3” of last row knit 1
+plain, 1 purl, 1 plain. Knit together plain the 10 long loops
+and draw over them the preceding stitch.</p>
+
+<p>10th row.—Plain.</p>
+
+<p>Repeat indefinitely these 10 rows.</p>
+
+<figure class="figleft illowp50" id="i_075" >
+  <img class="w100" src="images/i_075.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 75. Lace Edging.</span></figcaption>
+</figure>
+
+<p>No. 75—<i>Lace Edging</i>.—Cast on 16 stitches and knit in
+rows to and fro.</p>
+
+<p>1st row.—Slip 1. Alternate twice: make 1, 2 together
+plain. Then purl 10. In the last stitch 1 plain, 1 purl.</p>
+
+<p>2d row—Plain.</p>
+
+<p><span class="pagenum" id="Page_75">[75]</span></p>
+
+<p>3d row.—Slip 1. Alternate twice: make 1, 2 together
+plain. Then purl 11. In the last stitch 1 purl, 1 plain.</p>
+
+<p>4th row.—Plain.</p>
+
+<p>5th row.—Slip 1. Alternate
+twice: make 1, 2 together plain.
+Then 1 purl. Alternate 6 times:
+make 1, purl 2 together.</p>
+
+<p>6th row.—Plain.</p>
+
+<p>7th row.—Slip 1. Alternate
+twice: make 1, 2 together plain.
+Then 11 purl, 2 together plain.</p>
+
+<p>8th row.—Plain.</p>
+
+<p>9th row.—Slip 1. Alternate twice: make 1, 2 together
+plain. Then purl 10, purl 2 together.</p>
+
+<p>10th row.—Plain.</p>
+
+<p>11th row.—Slip 1. Alternate twice: make 1, 2 together
+plain. Then 1 purl, 10 plain.</p>
+
+<p>12th row.—Slip 1, 9 purl. Leave remaining stitch of 11th
+row untouched.</p>
+
+<p>13th row.—Slip 1, 9 plain.</p>
+
+<p>14th and 15th rows.—Like 12th and 13th rows.</p>
+
+<p>16th row.—Slip 1, 9 purl, 6 plain.</p>
+
+<p>Repeat indefinitely these 16 rows.</p>
+
+<figure class="figright illowp40" id="i_076b">
+  <img class="w100" src="images/i_076b.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 76. Fancy Stitch.</span></figcaption>
+</figure>
+
+<p>No. 76—<i>Fancy Design</i>.—Cast on a number of stitches
+divisible by 18 and knit in rows to and fro.</p>
+
+<p>1st row.—* purl 2, 2 plain,
+7 purl, 2 plain, 2 purl, make 1,
+3 together in twist stitch, make 1.</p>
+
+<p>Repeat from *.</p>
+
+<p>N. B.—When knitting rows
+designated by even numbers the
+stitches of each preceding row
+which were purled will <i>appear</i>
+plain on the wrong side of work.
+Such stitches must be knitted
+plain. Likewise the stitches of
+preceding row knitted plain
+must be purled. Purl every
+“make 1.”</p>
+
+<p>3d row.—* 2 purl, 1 plain, 2 together in twist stitch, 5<span class="pagenum" id="Page_76">[76]</span>
+purl, 2 together, 1 plain, 2 purl, 1 plain, make 1, 1 plain,
+make 1, 1 plain. Repeat from *.</p>
+
+<p>5th row.—* 2 purl, 1 plain, 2 together in twist stitch, 3
+purl, 2 together, 1 plain, 2 purl, 2 plain, make 1, 1 plain,
+make 1, 2 plain. Repeat from *.</p>
+
+<p>7th row.—* 2 purl, 1 plain, 2 together in twist stitch, 1
+purl, 2 together, 1 plain, 2 purl, 2 plain, 1 purl, make 1, 1
+plain, make 1, 1 purl, 2 plain. Repeat from *.</p>
+
+<p>9th row.—* 2 purl, 1 plain, 3 together in twist stitch, 1
+plain, 2 purl, 2 plain, 2 purl, make 1, 1 plain, make 1, 2 purl,
+2 plain. Repeat from *.</p>
+
+<p>11th row.—* 2 purl, make 1, 3 together in twist stitch,
+make 1, 2 purl, 2 plain, 7 purl, 2 plain. Repeat from *.</p>
+
+<p>Repeat indefinitely from 3d to 11th rows, inclusive.</p>
+
+<figure class="figcenter illowp90" id="i_077_2" >
+  <img class="w100" src="images/i_077.jpg" alt="">
+  <figcaption class="caption"><span class="smcap">No. 77. Afghan.</span></figcaption>
+</figure>
+
+<p>No. 77—<i>Afghan</i>.—This Afghan has seven stripes, each one
+yard in length. The stripes are sewed together on the wrong
+side of the work. Four of them are worked with garnet
+zephyr, the remaining three with steel-gray zephyr. The
+border is finished off with an edging. For the stripes knitted
+with garnet zephyr, cast on 27 stitches and work in rows to
+and fro.</p>
+
+<p>1st row.—Slip 1. Alternate twice: 3 purl, 8 plain. Then
+4 purl.</p>
+
+<p>2d row.—Slip 1. Alternate twice: 3 plain, 8 purl. Then
+4 plain.</p>
+
+<p>3d and 5th rows.—Like 1st row.</p>
+
+<p>4th and 6th rows.—Like 2d row.</p>
+
+<p>7th row.—Slip 1. Then * 3 purl. Slip 4 on a special
+needle and on right needle knit plain the next 4 stitches
+which are on left needle. From the <i>special</i> needle knit plain
+the 4 stitches which are on it. Repeat once from *. Then 4
+purl.</p>
+
+<p>Repeat from 2d to 7th rows, inclusive, until the required
+length is reached.</p>
+
+<p>For the stripes knitted with steel-gray zephyr cast on
+15 stitches and work to and fro in rows.</p>
+
+<p>1st to 10th rows.—Plain.</p>
+
+<p>11th to 22d rows.—* 1 plain, make 1, slip 1 by passing
+right needle through the loop, as if to purl it.</p>
+
+<p><span class="pagenum" id="Page_77">[77]</span></p>
+
+<p>Repeat from * to end of row; but in every following
+row knit together plain the slipped stitch and “the make 1”
+of preceding row, and slip the stitch which was knitted after
+“the make 1” in preceding row. Repeat from 1st to 22d
+rows until the required length is worked.</p>
+<p><span class="pagenum" id="Page_78">[78]</span></p>
+<p><i>The Edging of the Afghan.</i>—Cast on 9 stitches.</p>
+
+<p>1st row.—Plain.</p>
+
+<p>2d row.—Slip 1, 2 plain, make 2, 6 plain.</p>
+
+<p>3d row.—Plain; but in the “make 2” of preceding row
+knit 1 plain, 1 purl.</p>
+
+<p>4th and 5th rows.—Plain.</p>
+
+<p>6th row.—Slip 1, 2 plain, make 2, 2 together plain, make
+2, 6 plain.</p>
+
+<p>7th row.—Plain; but in each “make 2” of last row knit
+1 plain, 1 purl.</p>
+
+<p>8th row.—Plain.</p>
+
+<p>9th row.—Cast off 5 stitches, 8 plain.</p>
+
+<p>Repeat from 2d to 9th rows, inclusive, until required
+length is reached. Then sew the edging to the border of the
+Afghan.</p>
+
+<p><span class="pagenum" id="Page_79">[79]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+
+<h2 class="nobreak" id="CARPETS">
+<span class="fs60">INSTRUCTIONS FOR KNITTING</span> <br><br>
+ORIENTAL RUGS AND CARPETS.</h2>
+</div>
+
+
+<figure class="figcenter illowp20" id="hr3" >
+  <img class="w100" src="images/hr.jpg" alt="">
+  </figure>
+
+
+<p>Cut the various colors of wool required for the pattern
+in equal short bits. Then knit with 11 inch No. 13 needles
+as follows:</p>
+
+<p>1. <span class="smcap">The first row</span> flat plain with coarse cotton or twine.</p>
+
+<p>2. <span class="smcap">The second row</span> one stitch plain; then take a piece
+of wool and knit it in with the next stitch, so that one half
+of it is at the front and the other half at the back of the
+work; then one plain again, and put the half left at the
+back round to the front of the work, and continue this
+alternately to the end of the row. Knit <span class="allsmcap">ONE ROW PLAIN</span>
+again, then <span class="allsmcap">ONE ROW SAME AS THE SECOND</span>, and so on.</p>
+
+<p>The Carpet may be knitted in pieces of any size and
+sewn together. If the surface is not quite level cut it even
+afterwards.</p>
+
+<p>The best results are obtained by using Oriental Wool,
+Smyrna Cotton and designs manufactured expressly for the
+purpose and lately introduced into this market by Messrs. H.
+Taylor &amp; Co., of Philadelphia. Rugs knitted from these
+materials are as beautiful and serviceable as the real Oriental
+Carpets, and, if well done, cannot be distinguished from
+them.</p>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_80">[80]</span></p>
+
+<p class="center noindent bold fs150">BOOKS
+ <img style="max-height: .8em; display: inline-block;margin-bottom: -.05em "
+src="images/i_082d.jpg" alt="">
+ ON
+ <img style="max-height: .8em; display: inline-block;margin-bottom:  -.05em "
+src="images/i_082d.jpg" alt="">
+ FANCY
+ <img style="max-height: .8em; display: inline-block;margin-bottom: -.05em "
+src="images/i_082d.jpg" alt="">
+ WORK.</p>
+</div>
+<hr class="full">
+<p class="center noindent fs120 lspp5">CROCHET SERIES.</p>
+
+<p class="center noindent fs80 lsp2">FIVE NUMBERS.</p>
+
+<hr class="r15">
+<p class="center noindent fs75 lspp5">CONTENTS:</p>
+
+<p class="noindent">No. 1.—HOW TO CROCHET.</p>
+
+<div class="blockquot">
+
+<p class="noindent">With full explanations of all Crochet Stitches. Illustrated.</p>
+</div>
+
+<p class="noindent">No. 2.—LAMBREQUIN DESIGNS.</p>
+
+<div class="blockquot">
+
+<p class="noindent">Especially adapted for Twine. Illustrated.</p>
+</div>
+
+<p class="noindent">No. 3.—MISCELLANEOUS DESIGNS.</p>
+
+<div class="blockquot">
+
+<p class="noindent">Tidies, Mats and Spreads. Illustrated.</p>
+</div>
+
+<p class="noindent">No. 4.—FINE CROCHET WORK.</p>
+
+<div class="blockquot">
+
+<p class="noindent">Designs for Lace Edgings, Insertions, etc. Illustrated.</p>
+</div>
+
+<p class="noindent">No. 5.—MALTESE CROCHET WORK.</p>
+
+<div class="blockquot">
+
+<p class="noindent">And Designs for Fringes, Afghans, etc. Illustrated.</p>
+</div>
+
+<p class="center bold noindent">
+Price, 15 Cents each.<br>
+</p>
+<hr class="r15">
+
+<p class="noindent">DRAWN WORK.</p>
+
+<p class="center noindent">
+Complete directions in one volume. Illustrated.<br>
+</p>
+
+<p class="center bold noindent">Price, 25 Cents.<br>
+</p>
+<hr class="r15">
+
+<table class="autotable wd90" style="max-width:30em">
+<tr>
+<td class="tdl wd80">Complete Crochet Series, 5 Books,</td>
+<td class="tdr">60</td>
+<td class="tdc">cents</td>
+</tr>
+<tr>
+<td class="tdl">Drawn Work and Crochet Series,</td>
+<td class="tdr">75</td>
+<td class="tdc">”</td>
+</tr>
+</table>
+
+
+<hr class="r15">
+
+<p class="center noindent fs90 wsp bold">FOR SALE BY DEALERS IN ART NEEDLE WORK MATERIALS.</p>
+
+<hr class="r15">
+
+<p class="center noindent p2 lsp1 wsp">
+HENRY BRISTOW, <span class="smcap">Publisher</span>,<br>
+<span class="fs60">BROOKLYN, N. Y.</span><br>
+</p>
+
+<p><span class="pagenum" id="Page_82">[82]</span></p>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+
+<figure class="figcenter illowp70" id="i_082" >
+  <img class="w100" src="images/i_082.jpg" alt="">
+<figcaption class="caption">
+<p class="center noindent p2 sans-serif"><span class="lsp1 wsp fs200">NONOTUCK SILK CO.</span><br>
+<span class="fs60">SOLE MANUFACTURERS OF</span><br>
+<span class="bold fs175">“CORTICELLI” <span class="allsmcap">AND</span> “FLORENCE”</span><br>
+<span class="smcap bold u fs120">Corticelli Spool Silk</span>,</p>
+<p class="center noindent">
+<i>Embroidery Silk, Filoselle, &amp;c.</i>,<br>
+<span class="fs70">ARE UNEQUALED.</span>
+</p>
+<p class="center noindent"><span class="fs120">Florence Silk Underwear,<br>
+Florence Silk Hosiery,<br></span>
+<span class="fs80">TRADE MARK.</span><br>
+</p>
+<p class="center noindent">
+<span class="fs60">GUARANTEED MADE OF</span><br>
+<br>
+<span class="fs175">“FLORENCE,” The Peerless Knitting Silk.</span><br>
+
+<span class="fs80">——MILLS,——</span><br>
+<span class="sans-serif fs80 wsp"><i>FLORENCE AND LEEDS, MASS.</i></span><br>
+<br>
+<span class="sans-serif fs60">FOR SALE BY</span><br>
+<span class="lsp1">LEADING DEALERS</span>.<br>
+</p>
+</figcaption>
+</figure>
+</div>
+
+
+
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter"></div>
+
+
+<div class="transnote" id="ENDNOTE">
+<strong>
+TRANSCRIBER’S NOTE</strong>
+<br>
+<p class="noindent">
+Illustrations in this eBook have been positioned at the start of the<br>
+section referencing them.</p>
+<p class="noindent">
+Obvious typographical errors and punctuation errors have been
+corrected after careful comparison with other occurrences within
+the text and consultation of external sources.</p>
+<p class="noindent"></p>
+
+<p class="noindent">Some hyphens in words have been silently removed, some added,
+when a predominant preference was found in the original book.</p>
+<p class="noindent"></p>
+
+<p class="noindent">Except for those changes noted below, all misspellings in the text,
+and inconsistent or archaic usage, have been retained.</p>
+
+<table class="autotable">
+<tr>
+<td class="tdrt wd15">Pg. <a href="#durl">28</a>:</td>
+<td class="tdl">“durl” replaced with “purl”</td>
+</tr>
+<tr>
+<td class="tdrt">Pg. <a href="#unclear">29</a>:</td>
+<td class="tdl">No. 40 4th round, the first “3” is unclear. It might be an 8 or 5.
+ Three was validated with test swatch.</td>
+</tr>
+<tr>
+<td class="tdrt">Pg. <a href="#pearl">73</a>:</td>
+<td class="tdl">“pearl” replaced with “purl”</td>
+</tr>
+</table>
+
+
+</div>
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75503 ***</div>
+</body>
+</html>
+
