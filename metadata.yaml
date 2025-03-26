@@ -1,11 +1,16 @@
 _repo: Knitting-how-to-knit-and-what-to-knit-b-With-numerous-illustrations_75503
 _version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 75503-h/images/cover.jpg
 creator:
   editor:
     agent_name: Kerzman, Marie Louise
     gutenberg_agent_id: '58030'
     url: http://www.gutenberg.org/2009/agents/58030
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/75503#Knitting-how-to-knit-and-what-to-knit-b-With-numerous-illustrations
 gutenberg_issued: '2025-03-02'
 gutenberg_type: Text
 identifiers:
